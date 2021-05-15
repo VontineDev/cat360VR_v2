@@ -19,7 +19,7 @@ public class FadeManager : MonoBehaviour
         StartCoroutine(FadeOutCoroutine());
     }
 
-
+    // 페이드 인 - 투명한 화면이 점점 검어진다
     IEnumerator FadeInCoroutine()
     {
         float fadeCount = 0;
@@ -38,6 +38,7 @@ public class FadeManager : MonoBehaviour
         panel.SetActive(false);
     }
 
+    // 페이드 아웃 - 검은 화면이 점점 투명해진다
     IEnumerator FadeOutCoroutine()
     {
         float fadeCount = 1.0f;

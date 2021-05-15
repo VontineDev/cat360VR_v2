@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
+    public static SoundManager soundManager;
+
     [SerializeField]
     AudioSource miaow;
 
