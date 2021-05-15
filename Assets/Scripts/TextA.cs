@@ -63,7 +63,7 @@ public class TextA : MonoBehaviour
             }
             if(isEnd)
             {
-            Invoke("CloseWindow",time);
+            Invoke("CloseWindow",3);
             }
             corutine = null;
             yield break;
