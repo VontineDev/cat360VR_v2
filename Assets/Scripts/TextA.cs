@@ -16,6 +16,7 @@ public class TextA : MonoBehaviour
     public Text text;
     private int idx=0;
     [Tooltip("줄간격 나눈 문장 출력 시간 간격")]
+    [Range(2,10)]
     public float time;
     [Tooltip("버튼")]
     public Button Yes;
@@ -27,6 +28,7 @@ public class TextA : MonoBehaviour
     [Tooltip("Enter로 줄간격 나눈 문장이 출력됩니다.10줄까지가능")]
     [TextArea(1, 10)]
     public string strNo;
+    public bool isEnd;//창을 닫을 때 판단변수
     private IEnumerator corutine;
    
     private void Start()
@@ -76,7 +78,6 @@ public class TextA : MonoBehaviour
             corutine = textGo();
         SetTextStr(strYes);
         StartCoroutine(corutine);
-        Debug.Log("들어옴");
         }
     }
     public void NoButton()
@@ -86,7 +87,6 @@ public class TextA : MonoBehaviour
             corutine = textGo();
             SetTextStr(strNo);
             StartCoroutine(corutine);
-            Debug.Log("들어옴");
         }
     }
 }
