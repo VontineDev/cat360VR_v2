@@ -15,9 +15,9 @@ public class TextA : MonoBehaviour
     [Tooltip("출력할 텍스트오브젝트")]
     public Text text;
     private int idx=0;
-    [Tooltip("줄간격 나눈 문장 출력 시간 간격")]
+    [Tooltip("문장 출력 속도")]
     [Range(2,10)]
-    public float time;
+    public float textSpeed;
     [Tooltip("버튼")]
     public Button Yes;
     [Tooltip("Enter로 줄간격 나눈 문장이 출력됩니다.10줄까지가능")]
@@ -29,11 +29,12 @@ public class TextA : MonoBehaviour
     [TextArea(1, 10)]
     public string strNo;
     public bool isEnd;//창을 닫을 때 판단변수
+    public GameObject talkWindow;//대화창
     private IEnumerator corutine;
    
     private void Start()
     {
-        corutine = textGo();
+        corutine = textGo(3f);
         idx = 0;
         SetTextStr(str);
         StartCoroutine(corutine);
@@ -47,23 +48,27 @@ public class TextA : MonoBehaviour
         idx = 0;
         strArr = s.Split('\n');
     }
-    IEnumerator textGo()
+    IEnumerator textGo(float time)
     {
         yield return new WaitForSeconds(time);
         text.text = "";
-        text.DOText(strArr[idx], 2f, true).SetDelay(0f);
+        text.DOText(strArr[idx], textSpeed, true).SetDelay(0f);
         idx++;
       
         if(idx==strArr.Length)
         {
             if(Yes!=null&&No!=null)
             {
-            Invoke("SetActiveButton", 2f);
+            Invoke("SetActiveButton", time);
+            }
+            if(isEnd)
+            {
+            Invoke("CloseWindow",time);
             }
             corutine = null;
             yield break;
         }
-        StartCoroutine(textGo());
+        StartCoroutine(textGo(time));
         yield break;
     }
     public void SetActiveButton()
@@ -73,20 +78,26 @@ public class TextA : MonoBehaviour
     }
     public void YesButton()
     {
-        if(corutine==null)
+        if(corutine==null && isEnd == false)
         {
-            corutine = textGo();
+            isEnd = true;
+            corutine = textGo(0);
         SetTextStr(strYes);
         StartCoroutine(corutine);
         }
     }
     public void NoButton()
     {
-        if (corutine == null)
+        if (corutine == null&&isEnd==false)
         {
-            corutine = textGo();
+            isEnd = true;
+            corutine = textGo(0);
             SetTextStr(strNo);
             StartCoroutine(corutine);
         }
+    }
+    public void CloseWindow()
+    {
+        talkWindow.SetActive(false);
     }
 }
