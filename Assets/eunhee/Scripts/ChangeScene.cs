@@ -18,7 +18,7 @@ public class ChangeScene : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.CapsLock)){
 
-            FadeManager.FadeCoroutine();
+            FadeManager.FadeIn();
 
             SceneManager.LoadScene(1, LoadSceneMode.Additive);
         }

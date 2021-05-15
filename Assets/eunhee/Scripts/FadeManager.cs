@@ -7,21 +7,34 @@ public class FadeManager : MonoBehaviour
 {
     public Image image;
 
-    void Start()
+    public void FadeIn()
     {
-        StartCoroutine(FadeCoroutine());
+        StartCoroutine(FadeInCoroutine());
     }
 
-    void Update()
+    public void FadeOut()
     {
-        
+        StartCoroutine(FadeOutCoroutine());
     }
 
-    public IEnumerator FadeCoroutine()
+
+    IEnumerator FadeInCoroutine()
+    {
+        float fadeCount = 0;
+
+        while(fadeCount < 1f)
+        {
+            fadeCount += 0.01f;
+            yield return new WaitForSeconds(0.01f);
+            image.color = new Color(0, 0, 0, fadeCount);
+        }
+    }
+
+    IEnumerator FadeOutCoroutine()
     {
         float fadeCount = 1.0f;
 
-        while(fadeCount > 0f)
+        while (fadeCount > 0f)
         {
             fadeCount -= 0.01f;
             yield return new WaitForSeconds(0.01f);
