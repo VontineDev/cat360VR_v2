@@ -9,47 +9,61 @@ public class PlayerCtrl : MonoBehaviour
     /// </summary>
     public Transform eyePos;
     private int test;//테스트용
+    private LayerMask origin;
     void Start()
     {
+        origin = Camera.main.cullingMask - LayerMask.GetMask("World0");
         //테스트
         test = 0;
     }
 
     void Update()
     {
-        if(OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
-        {
-            test++;
-            MovePlace(test);
-        }
+        //if(OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
+        //{
+        //    test++;
+        //    MovePlace(test);
+        //}
     }
     /// <summary>
     /// 해당 장소로 이동
     /// </summary>
     public void MovePlace(int num)
     {
+        SetLayer();
         switch (num)
         {
             case 0:
-                transform.position = Vector3.zero;
-               eyePos.rotation = Quaternion.identity;
+                Camera.main.cullingMask += LayerMask.GetMask("World0");
+                //  transform.position = Vector3.zero;
+                //  eyePos.rotation = Quaternion.identity;
                 break;
             case 1:
-                transform.position = new Vector3(10,0,0);
-                eyePos.rotation = Quaternion.identity;
+                Camera.main.cullingMask += LayerMask.GetMask("World1");
+                //  transform.position = new Vector3(10, 0, 0);
+                //  eyePos.rotation = Quaternion.identity;
                 break;
             case 2:
-                transform.position = new Vector3(20, 0, 0);
-                eyePos.rotation = Quaternion.identity;
+                
+                Camera.main.cullingMask += LayerMask.GetMask( "World2");
+                //  transform.position = new Vector3(20, 0, 0);
+                //  eyePos.rotation = Quaternion.identity;
                 break;
             case 3:
-                transform.position = new Vector3(30, 0, 0);
-                eyePos.rotation = Quaternion.identity;
+            
+                Camera.main.cullingMask += LayerMask.GetMask( "World3");
+                //   transform.position = new Vector3(30, 0, 0);
+                //  eyePos.rotation = Quaternion.identity;
                 break;
             case 4:
-                transform.position = new Vector3(40, 0, 0);
-                eyePos.rotation = Quaternion.identity;
+                Camera.main.cullingMask += LayerMask.GetMask( "World4");
+                //transform.position = new Vector3(40, 0, 0);
+                //eyePos.rotation = Quaternion.identity;
                 break;
         }
+    }
+    public void SetLayer()
+    {
+        Camera.main.cullingMask = origin;
     }
 }
