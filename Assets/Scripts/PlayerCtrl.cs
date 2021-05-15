@@ -19,11 +19,11 @@ public class PlayerCtrl : MonoBehaviour
 
     void Update()
     {
-        //if(OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
-        //{
-        //    test++;
-        //    MovePlace(test);
-        //}
+        if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
+        {
+            test++;
+            MovePlace(test);
+        }
     }
     /// <summary>
     /// 해당 장소로 이동

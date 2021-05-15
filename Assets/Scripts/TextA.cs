@@ -31,6 +31,8 @@ public class TextA : MonoBehaviour
     public bool isEnd;//창을 닫을 때 판단변수
     public GameObject talkWindow;//대화창
     private IEnumerator corutine;
+    private int size;
+    public SoundManager sm;
    
     private void Start()
     {
@@ -47,12 +49,30 @@ public class TextA : MonoBehaviour
     {
         idx = 0;
         strArr = s.Split('\n');
+       
     }
+    IEnumerator SoundGo(float time,float end)
+    {
+        float current = 0;
+        while(true)
+        {
+            sm.miaowSound();
+            current += time;
+            if(current>=end)
+            {
+                yield break;
+            }
+            yield return new WaitForSeconds(time);
+        }
+
+    }
+
     IEnumerator textGo(float time)
     {
         yield return new WaitForSeconds(time);
         text.text = "";
         text.DOText(strArr[idx], textSpeed, true).SetDelay(0f);
+        StartCoroutine(SoundGo(textSpeed/ strArr[idx].Length, textSpeed));
         idx++;
       
         if(idx==strArr.Length)

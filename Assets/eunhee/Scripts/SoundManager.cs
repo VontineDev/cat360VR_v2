@@ -23,7 +23,7 @@ public class SoundManager : MonoBehaviour
         
     }
 
-    void miaowSound()
+   public void miaowSound()
     {
         if(isMiaow == false)
         {
