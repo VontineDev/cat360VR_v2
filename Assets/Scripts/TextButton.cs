@@ -70,8 +70,16 @@ public class TextButton : MonoBehaviour
      if(!isPlay)
         {
         ta.PlayText(time, strPlay);
+            Invoke("NextText", time + time);
             isPlay = true;
         }
+    }
+
+
+
+    public void NextText()
+    {
+        ta.PlayText(3f, ta.str, true, false);
     }
    
 }
