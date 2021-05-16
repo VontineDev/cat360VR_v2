@@ -23,16 +23,18 @@ public class PlayerCtrl : MonoBehaviour
 
     private void Instance_WorldChangeOperate()
     {
+        worldNum++;
         print("Instance_WorldChangeOperate");
-        if (worldNum == 4)
+
+        if (worldNum < 5)
+        {
+            print($"Instance_WorldChangeOperate WorldNumber: {worldNum}");
+            MovePlace(worldNum);
+        }
+        else
         {
             print("고양이가 다가오게만들어라");
             DelegateManager.Instance.ComeCatOperation();    //ComCatOperation 대리자 호출
-
-        }
-        if (worldNum < 4)
-        {
-            MovePlace(++worldNum);
         }
     }
 

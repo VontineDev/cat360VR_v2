@@ -12,7 +12,14 @@ public class FindCat : MonoBehaviour
     {
         DelegateManager.Instance.SearchCatOperate += Instance_SearchCatOperate;
         DelegateManager.Instance.WorldChangeOperate += Instance_WorldChangeOperate;
+        //DelegateManager.Instance.ComeCatOperate += Instance_ComeCatOperate;
     }
+
+    ////마지막월드에서는 고양이를 이미 찾은것으로 본다.
+    //private void Instance_ComeCatOperate()
+    //{
+    //    isFound = true;
+    //}
 
     private void Instance_WorldChangeOperate()
     {

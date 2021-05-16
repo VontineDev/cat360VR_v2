@@ -20,6 +20,8 @@ public class CatCtrl : MonoBehaviour
     [SerializeField]
     GameObject OVRCameraRig;
     AudioSource audioSource;
+
+    bool isCatCome;     //is cat come or run?
     // Start is called before the first frame update
     void Start()
     {
@@ -33,18 +35,19 @@ public class CatCtrl : MonoBehaviour
         DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
         DelegateManager.Instance.WorldChangeOperate += Instance_WorldChangeOperate;
         DelegateManager.Instance.SearchCatOperate += Instance_SearchCatOperate;
-        DelegateManager.Instance.ComeCatOperate += Instance_ComeCatOperate; 
+        DelegateManager.Instance.ComeCatOperate += Instance_ComeCatOperate;
     }
 
+    //ComeCatOperate 대리자 호출하면 동작, 고양이가 나에게 다가온다.
     private void Instance_ComeCatOperate()
     {
-        
+        isCatCome = true;
     }
-
     //SearchCatOperate 대리자 호출하면 동작, 고양이가 소리내기
     private void Instance_SearchCatOperate()
     {
         audioSource.Play();
+        print("Instance_SearchCatOperate");
     }
 
     //WorldChangeOperate 대리자 호출하면 동작, 고양이 위치선정, SearchCatOperate 대리자 호출
@@ -66,9 +69,29 @@ public class CatCtrl : MonoBehaviour
     private void Instance_FoundCatOperate()
     {
         skinnedMesh.enabled = true;         //고양이를 찾았으므로 보이게한다
-        StartCoroutine(TurnAndRunCat());    //고양이가 몸을돌려 도망간다.
+        if (isCatCome)
+        {
+            StartCoroutine(ComeCat());
+        }
+        else
+        {
+            StartCoroutine(TurnAndRunCat());    //고양이가 몸을돌려 도망간다.
+        }
     }
 
+    IEnumerator ComeCat()
+    {
+        SetState(Cat_State.walk);
+        float timePassed = 0;
+        float speed = 0.5f;
+        while (timePassed < 2f)
+        {
+            yield return null;
+            print("ComeCat");
+            timePassed += Time.deltaTime;
+            this.gameObject.transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        }
+    }
 
     //고양이가 run Animation을 취하고 자신의 foward방향으로 4초동안 도망간다
     IEnumerator RunCat()
