@@ -22,6 +22,8 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMesh textMesh1;
     // Start is called before the first frame update
+
+    
     void Start()
     {
         DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
@@ -31,8 +33,9 @@ public class UIManager : MonoBehaviour
 
     private void Instance_RunCatOperate()
     {
-        StartCoroutine(ShowText(OVRCameraAnchor, textMesh1));
+       // StartCoroutine(ShowText(OVRCameraAnchor, textMesh1));
 
+     TextA.Instance.PlayText(0, "어? 어디가!");
 
         DelegateManager.Instance.FadeOperation(); //Fade 실행
 
@@ -41,7 +44,8 @@ public class UIManager : MonoBehaviour
 
     private void Instance_FoundCatOperate()
     {
-        StartCoroutine(ShowText(catGo, textMesh));
+        // StartCoroutine(ShowText(catGo, textMesh));
+        TextA.Instance.PlayText(0, "고양이를 발견");
     }
     IEnumerator ShowText(GameObject anchor, TextMesh tm)
     {

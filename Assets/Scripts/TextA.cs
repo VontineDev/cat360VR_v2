@@ -24,7 +24,19 @@ public class TextA : MonoBehaviour
     private int size;
     public SoundManager sm;
     public TextButton tb;
+    #region singleton
+    public static TextA Instance;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+          //  DontDestroyOnLoad(gameObject);
+        }
+    }
 
+
+    #endregion
     private void Start()
     {
     }

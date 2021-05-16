@@ -1151,6 +1151,7 @@ MonoBehaviour:
   catGo: {fileID: 1856187407}
   textMesh: {fileID: 1921470484}
   textMesh1: {fileID: 1367458825}
+  ta: {fileID: 6211579305388445000}
 --- !u!4 &1518107185
 Transform:
   m_ObjectHideFlags: 0
@@ -2687,9 +2688,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Yes: {fileID: 6211579304947423588}
-  strYes: "\uC77C\uC5B4\uB098\uC790!(Yes\uB97C \uB204\uB974\uBA74\uB098\uC624\uB294\uB300\uC0AC)"
+  strYes: "\uC77C\uC5B4\uB098\uC790!"
   No: {fileID: 6211579304672443097}
-  strNo: "\uC880\uB354 \uC274\uB798!(NO\uB97C \uB204\uB974\uBA74\uB098\uC624\uB294\uB300\uC0AC)"
+  strNo: "\uC880\uB354 \uC274\uB798!"
   playButton: {fileID: 6211579304908793307}
   strPlay: "\uAC8C\uC784\uC744 \uC2DC\uC791\uD569\uB2C8\uB2E4"
   ta: {fileID: 6211579305388445000}
