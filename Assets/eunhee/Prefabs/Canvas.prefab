@@ -284,10 +284,7 @@ MonoBehaviour:
   str: "11.dfsafdafa\n22.fdasfasdfa\n33.fdasfsdfdas \uC774\uB7F0\uC2DD\uC73C\uB85C"
   text: {fileID: 8234969892016696606}
   textSpeed: 0
-  Yes: {fileID: 0}
-  strYes: 
-  No: {fileID: 0}
-  strNo: 
   isEnd: 0
   talkWindow: {fileID: 0}
   sm: {fileID: 0}
+  tb: {fileID: 0}

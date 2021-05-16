@@ -9,26 +9,22 @@ public class FadeManager : MonoBehaviour
 
     public GameObject panel;
 
-    Action fadeInEndOperate;
-    Action fadeOutEndOperate;
     private void Start()
     {
-        fadeInEndOperate += FadeOut;
         DelegateManager.Instance.FadeOperate += Instance_FadeOperate;
-        fadeOutEndOperate += DelegateManager.Instance.WorldChangeOperation;
-
     }
+
 
     private void Instance_FadeOperate()
     {
+        print($"FadeManager Instance_FadeOperate");
+
         FadeIn();
     }
 
     public void FadeIn()
     {
         StartCoroutine(FadeInCoroutine());
-
-        panel.GetComponent<Image>();
     }
 
     public void FadeOut()
@@ -41,7 +37,7 @@ public class FadeManager : MonoBehaviour
     {
         float fadeCount = 0;
 
-        image.color = new Color(0, 0, 0, 1);
+        image.color = new Color(0, 0, 0, 0);
 
         panel.SetActive(true);
 
@@ -51,8 +47,11 @@ public class FadeManager : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
             image.color = new Color(0, 0, 0, fadeCount);
         }
-        fadeInEndOperate();
+        //페이드인이 끝남
+        DelegateManager.Instance.WorldChangeOperation();
         panel.SetActive(false);
+
+        FadeOut();
     }
 
     // 페이드 아웃 - 검은 화면이 점점 투명해진다
@@ -60,7 +59,7 @@ public class FadeManager : MonoBehaviour
     {
         float fadeCount = 1.0f;
 
-        image.color = new Color(0, 0, 0, 0);
+        image.color = new Color(0, 0, 0, 1);
 
         panel.SetActive(true);
 
@@ -70,7 +69,6 @@ public class FadeManager : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
             image.color = new Color(0, 0, 0, fadeCount);
         }
-        fadeOutEndOperate();
         panel.SetActive(false);
     }
 }

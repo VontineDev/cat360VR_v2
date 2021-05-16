@@ -29,7 +29,6 @@ public class DelegateManager : MonoBehaviour
     public event Action FoundCatOperate;
     public event Action RunCatOperate;
     public event Action FadeOperate;
-
     public event Action WorldChangeOperate;
 
     //이벤트핸들러인경우
@@ -75,6 +74,7 @@ public class DelegateManager : MonoBehaviour
     {
         FadeOperate?.Invoke();
     }
+  
     public void WorldChangeOperation()
     {
         WorldChangeOperate?.Invoke();
