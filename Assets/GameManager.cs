@@ -23,10 +23,22 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isStarted = true;
-        tb.ta.PlayText(3f, "", false, true);
-
+       
+        tb.ta.PlayText(3f, "시작하려면 PLAY버튼을 컨트롤러A로 누르세요", false, true);
+    
     }
+    IEnumerator isStart()
+    {
+        while(true)
+        {
+            if(isStarted)
+            {
+                tb.ta.PlayText(3f, tb.ta.str, true, false);
+            }
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

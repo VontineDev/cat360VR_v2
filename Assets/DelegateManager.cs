@@ -74,7 +74,7 @@ public class DelegateManager : MonoBehaviour
     {
         FadeOperate?.Invoke();
     }
-  
+
     public void WorldChangeOperation()
     {
         WorldChangeOperate?.Invoke();

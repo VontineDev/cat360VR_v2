@@ -35,6 +35,7 @@ public class TextA : MonoBehaviour
             Debug.Log("zl");
             PlayText(3f, "", false, true);
         }
+        
     }
     /// <summary>
     /// 실행함수
@@ -83,6 +84,7 @@ public class TextA : MonoBehaviour
             idx++;
             if (idx == strArr.Length)
             {
+
                 yield break;
             }
 
