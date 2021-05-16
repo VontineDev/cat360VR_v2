@@ -11,57 +11,65 @@ public class TextA : MonoBehaviour
     [Tooltip("Enter로 줄간격 나눈 문장이 출력됩니다.10줄까지가능")]
     [TextArea(1, 10)]
     public string str;
-    private string[] strArr;
     [Tooltip("출력할 텍스트오브젝트")]
     public Text text;
     private int idx = 0;
     [Tooltip("문장 출력 속도")]
     [Range(2, 10)]
     public float textSpeed;
-    [Tooltip("버튼")]
-    public Button Yes;
-    [Tooltip("Enter로 줄간격 나눈 문장이 출력됩니다.10줄까지가능")]
-    [TextArea(1, 10)]
-    public string strYes;
-    [Tooltip("버튼")]
-    public Button No;
-    [Tooltip("Enter로 줄간격 나눈 문장이 출력됩니다.10줄까지가능")]
-    [TextArea(1, 10)]
-    public string strNo;
+ 
     public bool isEnd;//창을 닫을 때 판단변수
     public GameObject talkWindow;//대화창
     private IEnumerator corutine;
     private int size;
     public SoundManager sm;
+    public TextButton tb;
 
     private void Start()
     {
-        corutine = textGo(3f);
-        idx = 0;
-        SetTextStr(str);
-        StartCoroutine(corutine);
-        //for (int i = 0; i < 3; i++)
-        //{
-        //    Debug.Log(strArr[i]);
-        //}
+    }
+    public void Update()
+    {
+        if(OVRInput.GetDown(OVRInput.RawButton.B))
+        {
+            Debug.Log("zl");
+            PlayText(3f, str, false,true) ;
+        }
     }
     /// <summary>
-    /// 실행 함수
+    /// 실행함수
     /// </summary>
-    public void PlayText()
+    /// <param name="time">시간 </param>
+    ///  <param name="s">textArea에쓴 내용 (출력할 텍스트)</param>
+    /// <param name="isButtonYesNO">yesno버튼쓸건가요?</param>
+    /// <param name="isButtonPlay">플레이버튼쓸껀가요?</param>
+    public void PlayText(float time,string s,bool isButtonYesNO=false,bool isButtonPlay=false)
     {
-
+        string[] strArr = s.Split('\n');
+        //일단 대화창 키고
+        talkWindow.SetActive(true);
+        corutine = textGo(time,strArr);
+       StartCoroutine(corutine);
+        if (isButtonYesNO)
+        {
+            tb.SetActiveButton(strArr.Length * time );
+        }
+        if(isButtonPlay)
+        {
+            tb.SetActivePlayButton(strArr.Length * time );
+        }
+        if(!isButtonYesNO&&!isButtonPlay)
+        {
+            //버튼이 없을경우 대화가 끝나고 종료
+            Invoke("CloseText", strArr.Length * time + time);
+        }
     }
 
-    public void SetTextStr(string s)
+
+    IEnumerator textGo(float time, string[] strArr)
     {
         idx = 0;
-        strArr = s.Split('\n');
-
-    }
-
-    IEnumerator textGo(float time)
-    {
+       
         WaitForSeconds wait = new WaitForSeconds(time);
         while (true)
         {
@@ -78,33 +86,11 @@ public class TextA : MonoBehaviour
         }
 
     }
-    public void SetActiveButton()
-    {
-        Yes.gameObject.SetActive(true);
-        No.gameObject.SetActive(true);
-    }
-    public void YesButton()
-    {
-        if (corutine == null && isEnd == false)
-        {
-            isEnd = true;
-            corutine = textGo(0);
-            SetTextStr(strYes);
-            StartCoroutine(corutine);
-            DelegateManager.Instance.YesOperation();
-        }
-    }
-    public void NoButton()
-    {
-        if (corutine == null && isEnd == false)
-        {
-            isEnd = true;
-            corutine = textGo(0);
-            SetTextStr(strNo);
-            StartCoroutine(corutine);
-        }
-    }
-    public void CloseWindow()
+   
+    /// <summary>
+    /// 창끄기
+    /// </summary>
+    public void CloseText()
     {
         talkWindow.SetActive(false);
     }
