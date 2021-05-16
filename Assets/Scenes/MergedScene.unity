@@ -2542,7 +2542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00d049874c38b4847af17902c6fd833b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  str: "\uB0D0\uC639\uAC00 \uC5B4\uB514\uB85C \uAC14\uC9C0?\n...\n\uCC3E\uC73C\uB7EC
+  str: "\uB0D0\uC639\uC774\uAC00 \uC5B4\uB514\uB85C \uAC14\uC9C0?\n...\n\uCC3E\uC73C\uB7EC
     \uAC08\uAE4C?"
   text: {fileID: 6211579304468346084}
   textSpeed: 2
