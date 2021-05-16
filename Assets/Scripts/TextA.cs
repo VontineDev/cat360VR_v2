@@ -65,7 +65,15 @@ public class TextA : MonoBehaviour
             Invoke("CloseText", strArr.Length * time + time);
         }
     }
-
+    public void PlayText2(float time, string s)
+    {
+        string[] strArr = s.Split('\n');
+        //일단 대화창 키고
+        talkWindow.SetActive(true);
+        corutine = textGo(time, strArr);
+        StartCoroutine(corutine);
+       
+    }
 
     IEnumerator textGo(float time, string[] strArr)
     {

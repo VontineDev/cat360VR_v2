@@ -24,8 +24,10 @@ public class TextButton : MonoBehaviour
     private bool isNo = false;
     private bool isYes = false;
     private bool isPlay = false;
+    private int noCount = 0;
     private void Start()
     {
+        noCount = 0;
         isNo = false;
         isYes = false;
         isPlay = false;
@@ -61,8 +63,27 @@ public class TextButton : MonoBehaviour
     {
         if (!isNo)
         {
-            ta.PlayText(time, strNo);
-            isNo = true;
+           
+            switch (noCount)
+            {
+                case 0:
+                    ta.PlayText2(time, strNo);
+                    break;
+                case 1:
+                    ta.PlayText2(time, "아 하기싫어.");
+                    break;
+                case 2:
+                    ta.PlayText2(time, "내 목소리만 들어.");
+                    break;
+                case 3:
+                    ta.PlayText(time, "으아~가고싶다.");
+                    isYes = true;
+                    isNo = true;
+                    DelegateManager.Instance.YesOperation();
+                    break;
+            }
+            noCount++;
+            
         }
     }
     public void PlayButtonGo(float time)
