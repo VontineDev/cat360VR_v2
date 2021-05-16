@@ -98,6 +98,7 @@ public class TextA : MonoBehaviour
     public void CloseText()
     {
         talkWindow.SetActive(false);
+        tb.playButton.gameObject.SetActive(false);
         tb.Yes.gameObject.SetActive(false);
         tb.No.gameObject.SetActive(false);
     }
