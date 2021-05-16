@@ -40,12 +40,18 @@ public class TextA : MonoBehaviour
         idx = 0;
         SetTextStr(str);
         StartCoroutine(corutine);
-        for (int i = 0; i < 3; i++)
-        {
-            Debug.Log(strArr[i]);
-        }
+        //for (int i = 0; i < 3; i++)
+        //{
+        //    Debug.Log(strArr[i]);
+        //}
     }
+    /// <summary>
+    /// 실행 함수
+    /// </summary>
+    public void PlayText()
+    {
 
+    }
 
     public void SetTextStr(string s)
     {
@@ -56,26 +62,21 @@ public class TextA : MonoBehaviour
 
     IEnumerator textGo(float time)
     {
-        yield return new WaitForSeconds(time);
-        text.text = "";
-        text.DOText(strArr[idx], textSpeed, true).SetDelay(0f);
-        idx++;
-
-        if (idx == strArr.Length)
+        WaitForSeconds wait = new WaitForSeconds(time);
+        while (true)
         {
-            if (Yes != null && No != null)
+            text.text = "";
+            text.DOText(strArr[idx], textSpeed, true).SetDelay(0f);
+            StartCoroutine(SoundGo(textSpeed / strArr[idx].Length, textSpeed));
+            idx++;
+            if(idx==strArr.Length)
             {
-                Invoke("SetActiveButton", time);
+                yield break;    
             }
-            if (isEnd)
-            {
-                Invoke("CloseWindow", 3);
-            }
-            corutine = null;
-            yield break;
+            
+            yield return wait;
         }
-        StartCoroutine(textGo(time));
-        yield break;
+
     }
     public void SetActiveButton()
     {
@@ -106,5 +107,20 @@ public class TextA : MonoBehaviour
     public void CloseWindow()
     {
         talkWindow.SetActive(false);
+    }
+    IEnumerator SoundGo(float time, float end)
+    {
+        float current = 0;
+        while (true)
+        {
+            sm.miaowSound();
+            current += time;
+            if (current >= end)
+            {
+                yield break;
+            }
+            yield return new WaitForSeconds(time);
+        }
+
     }
 }

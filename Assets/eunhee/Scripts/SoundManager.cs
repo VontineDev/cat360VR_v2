@@ -27,7 +27,7 @@ public class SoundManager : MonoBehaviour
     {
         isMiaow = false;
         bgm = GetComponent<AudioSource>();
-        bgm.Play();
+      //  bgm.Play();
     }
 
     public void miaowSound()
