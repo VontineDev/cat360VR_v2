@@ -12,6 +12,8 @@ public class FadeManager : MonoBehaviour
     public void FadeIn()
     {
         StartCoroutine(FadeInCoroutine());
+
+        panel.GetComponent<Image>();
     }
 
     public void FadeOut()

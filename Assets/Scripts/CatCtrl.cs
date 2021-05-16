@@ -12,31 +12,94 @@ public enum Cat_State
 public class CatCtrl : MonoBehaviour
 {
     public Animator anim;
+
+    const float maxAngle = 360;
+    [SerializeField]
+    SkinnedMeshRenderer skinnedMesh;
+
+    [SerializeField]
+    GameObject OVRCameraRig;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Set AudioSource
+        audioSource = GetComponent<AudioSource>();
+
+        //Set Cat Position and Hiding
+        SetCat();
+
+        DelegateManager.Instance.YesOperate += Instance_YesOperate;
+        DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
+        DelegateManager.Instance.WorldChangeOperate += Instance_WorldChangeOperate;
+        DelegateManager.Instance.SearchCatOperate += Instance_SearchCatOperate;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Instance_SearchCatOperate()
     {
-        if(Input.GetKeyDown(KeyCode.A))
+        audioSource.Play();
+    }
+
+    private void Instance_WorldChangeOperate()
+    {
+        SetCat();     //Set Cat Position and Hiding
+
+        DelegateManager.Instance.SearchCatOperation();
+    }
+
+    void SetCat()
+    {
+        this.transform.eulerAngles = new Vector3(0, Random.Range(0, maxAngle), 0);      //0~360도 회전
+        this.transform.position = this.transform.forward * 3 + Vector3.down;        //앞으로3만큼간다, OVRCameraRig가(0,-1,0)으로되므로 Vector3.Down해줌
+        this.transform.LookAt(OVRCameraRig.transform);                              //카메라쪽을 쳐다보도록한다
+        skinnedMesh.enabled = false;                                                //안보이게숨기기
+
+    }
+    private void Instance_FoundCatOperate()
+    {
+        skinnedMesh.enabled = true;         //고양이를 찾았으므로 보이게한다
+        StartCoroutine(TurnAndRunCat());    //고양이가 몸을돌려 도망간다.
+    }
+
+
+    //고양이가 run Animation을 취하고 자신의 foward방향으로 4초동안 도망간다
+    IEnumerator RunCat()
+    {
+        SetState(Cat_State.run);
+        float timePassed = 0;
+        while (timePassed < 4f)
         {
-            SetState(Cat_State.idle);
+            timePassed += Time.deltaTime;
+            this.gameObject.transform.Translate(Vector3.forward * Time.deltaTime);
+            yield return null;
         }
-        if (Input.GetKeyDown(KeyCode.S))
+        audioSource.Stop();
+        DelegateManager.Instance.RunCatOperation();
+        yield break;
+    }
+
+    //고양이가 180도 회전한다
+    IEnumerator TurnAndRunCat()
+    {
+        SetState(Cat_State.tail);   //고양이가 꼬리를흔든다
+        int angle = 180;
+        while (angle > -1)
         {
-            SetState(Cat_State.run);
+            this.gameObject.transform.Rotate(Vector3.up, 1f);
+            angle--;
+            yield return null;
         }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            SetState(Cat_State.walk);
-        }
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            SetState(Cat_State.tail);
-        }
+
+        SetInit();  //애니메이션 이닛
+
+        StartCoroutine(RunCat()); //회전이 끝나면 고양이는 도망간다
+        yield break;
+    }
+    private void Instance_YesOperate()
+    {
+        print($"Instance_YesOperate");
+
+        DelegateManager.Instance.SearchCatOperation();
     }
     public void SetState(Cat_State state)
     {
@@ -57,7 +120,7 @@ public class CatCtrl : MonoBehaviour
                 SetInit();
                 anim.SetBool("isTail", true);
                 break;
-            
+
         }
     }
     public void SetInit()
