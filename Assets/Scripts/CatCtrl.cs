@@ -33,13 +33,21 @@ public class CatCtrl : MonoBehaviour
         DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
         DelegateManager.Instance.WorldChangeOperate += Instance_WorldChangeOperate;
         DelegateManager.Instance.SearchCatOperate += Instance_SearchCatOperate;
+        DelegateManager.Instance.ComeCatOperate += Instance_ComeCatOperate; 
     }
 
+    private void Instance_ComeCatOperate()
+    {
+        
+    }
+
+    //SearchCatOperate 대리자 호출하면 동작, 고양이가 소리내기
     private void Instance_SearchCatOperate()
     {
         audioSource.Play();
     }
 
+    //WorldChangeOperate 대리자 호출하면 동작, 고양이 위치선정, SearchCatOperate 대리자 호출
     private void Instance_WorldChangeOperate()
     {
         SetCat();     //Set Cat Position and Hiding

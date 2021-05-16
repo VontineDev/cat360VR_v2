@@ -21,7 +21,7 @@ public class TextButton : MonoBehaviour
     public string strPlay;
     public TextA ta;
 
-    private bool isNo=false;
+    private bool isNo = false;
     private bool isYes = false;
     private bool isPlay = false;
     private void Start()
@@ -49,27 +49,27 @@ public class TextButton : MonoBehaviour
     }
     //public void 
     public void YesButtonGo(float time)
-    { 
-           // DelegateManager.Instance.YesOperation();
-           if(!isYes)
+    {
+        if (!isYes)
         {
-        ta.PlayText(time,strYes);
+            ta.PlayText(time, strYes);
             isYes = true;
+            DelegateManager.Instance.YesOperation();
         }
     }
     public void NoButtonGo(float time)
     {
-       if(!isNo)
+        if (!isNo)
         {
-        ta.PlayText(time, strNo);
+            ta.PlayText(time, strNo);
             isNo = true;
         }
     }
     public void PlayButtonGo(float time)
     {
-     if(!isPlay)
+        if (!isPlay)
         {
-        ta.PlayText(time, strPlay);
+            ta.PlayText(time, strPlay);
             Invoke("NextText", time + time);
             isPlay = true;
         }
@@ -81,5 +81,5 @@ public class TextButton : MonoBehaviour
     {
         ta.PlayText(3f, ta.str, true, false);
     }
-   
+
 }

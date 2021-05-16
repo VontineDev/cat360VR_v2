@@ -28,9 +28,10 @@ public class DelegateManager : MonoBehaviour
     public event Action SearchCatOperate;
     public event Action FoundCatOperate;
     public event Action RunCatOperate;
+    public event Action ComeCatOperate;
     public event Action FadeOperate;
     public event Action WorldChangeOperate;
-
+    
     //이벤트핸들러인경우
 
     public event EventHandler SaveEvent;
@@ -69,6 +70,10 @@ public class DelegateManager : MonoBehaviour
     public void RunCatOperation()
     {
         RunCatOperate?.Invoke();
+    }
+    public void ComeCatOperation()
+    {
+        ComeCatOperate?.Invoke();
     }
     public void FadeOperation()
     {
