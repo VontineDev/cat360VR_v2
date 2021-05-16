@@ -59,11 +59,11 @@ public class TextA : MonoBehaviour
 
     public void Update()
     {
-        if (OVRInput.GetDown(OVRInput.RawButton.B))
-        {
-            Debug.Log("zl");
-            PlayText(3f, "", false, true);
-        }
+        //if (OVRInput.GetDown(OVRInput.RawButton.B))
+        //{
+        //    Debug.Log("zl");
+        //    PlayText(3f, "", false, true);
+        //}
     }
     /// <summary>
     /// 실행함수

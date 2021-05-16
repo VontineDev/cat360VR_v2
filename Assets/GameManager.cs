@@ -23,8 +23,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
-        tb.ta.PlayText(3f, "시작하려면 PLAY버튼을 컨트롤러A로 누르세요", false, true);
+
+        Invoke("StartGame", 5f);
     
     }
     IEnumerator isStart()
@@ -56,5 +56,9 @@ public class GameManager : MonoBehaviour
     {
         btnStart.gameObject.SetActive(true);
         print($"ShowBtnStart");
+    }
+    public void StartGame()
+    {
+        tb.ta.PlayText(3f, "시작하려면 PLAY버튼을 컨트롤러A로 누르세요", false, true);
     }
 }
