@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     Button btnStart; //시작버튼
     [SerializeField]
-    TextStreamer textStreamer;  //텍스트 스트리머
+    TextButton tb;  //텍스트 스트리머
 
     bool isStarted; //게임이 시작되었는가
 
@@ -24,6 +24,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         isStarted = true;
+        tb.ta.PlayText(3f, "", false, true);
+
     }
     // Update is called once per frame
     void Update()
