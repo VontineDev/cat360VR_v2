@@ -2,12 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 public class FadeManager : MonoBehaviour
 {
     public Image image;
 
     public GameObject panel;
+
+    Action fadeInEndOperate;
+    Action fadeOutEndOperate;
+    private void Start()
+    {
+        fadeInEndOperate += FadeOut;
+        DelegateManager.Instance.FadeOperate += Instance_FadeOperate;
+        fadeOutEndOperate += DelegateManager.Instance.WorldChangeOperation;
+
+    }
+
+    private void Instance_FadeOperate()
+    {
+        FadeIn();
+    }
 
     public void FadeIn()
     {
@@ -36,7 +51,7 @@ public class FadeManager : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
             image.color = new Color(0, 0, 0, fadeCount);
         }
-
+        fadeInEndOperate();
         panel.SetActive(false);
     }
 
@@ -55,7 +70,7 @@ public class FadeManager : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
             image.color = new Color(0, 0, 0, fadeCount);
         }
-
+        fadeOutEndOperate();
         panel.SetActive(false);
     }
 }

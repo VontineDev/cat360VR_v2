@@ -32,7 +32,11 @@ public class UIManager : MonoBehaviour
     private void Instance_RunCatOperate()
     {
         StartCoroutine(ShowText(OVRCameraAnchor, textMesh1));
-        DelegateManager.Instance.WorldChangeOperation();
+
+
+        DelegateManager.Instance.FadeOperation(); //Fade 실행
+
+        
     }
 
     private void Instance_FoundCatOperate()
