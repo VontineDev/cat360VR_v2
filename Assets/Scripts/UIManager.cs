@@ -26,9 +26,9 @@ public class UIManager : MonoBehaviour
     
     void Start()
     {
-        DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
+        //DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
 
-        DelegateManager.Instance.RunCatOperate += Instance_RunCatOperate;
+        //DelegateManager.Instance.RunCatOperate += Instance_RunCatOperate;
     }
 
     private void Instance_RunCatOperate()

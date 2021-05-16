@@ -6,6 +6,8 @@ using DG.Tweening.Core;
 using DG.Tweening.Plugins;
 using TMPro;
 using UnityEngine.UI;
+using System;
+
 public class TextA : MonoBehaviour
 {
     [Tooltip("Enter로 줄간격 나눈 문장이 출력됩니다.10줄까지가능")]
@@ -31,15 +33,30 @@ public class TextA : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-          //  DontDestroyOnLoad(gameObject);
+            //  DontDestroyOnLoad(gameObject);
         }
     }
-
 
     #endregion
     private void Start()
     {
+        DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
+        DelegateManager.Instance.RunCatOperate += Instance_RunCatOperate;
     }
+
+    private void Instance_RunCatOperate()
+    {
+        var str = "쫓아가자";
+        PlayText(2f, str);
+        DelegateManager.Instance.FadeOperation();
+    }
+
+    private void Instance_FoundCatOperate()
+    {
+        var str = "찾았다!";
+        PlayText(2f, str);
+    }
+
     public void Update()
     {
         if (OVRInput.GetDown(OVRInput.RawButton.B))
@@ -47,7 +64,6 @@ public class TextA : MonoBehaviour
             Debug.Log("zl");
             PlayText(3f, "", false, true);
         }
-        
     }
     /// <summary>
     /// 실행함수
@@ -77,6 +93,9 @@ public class TextA : MonoBehaviour
             Invoke("CloseText", strArr.Length * time + time);
         }
     }
+
+
+
     public void PlayText2(float time, string s)
     {
         string[] strArr = s.Split('\n');
@@ -84,7 +103,7 @@ public class TextA : MonoBehaviour
         talkWindow.SetActive(true);
         corutine = textGo(time, strArr);
         StartCoroutine(corutine);
-       
+
     }
 
     IEnumerator textGo(float time, string[] strArr)
