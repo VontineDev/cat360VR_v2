@@ -33,7 +33,7 @@ public class TextA : MonoBehaviour
         if(OVRInput.GetDown(OVRInput.RawButton.B))
         {
             Debug.Log("zl");
-            PlayText(3f, str, false,true) ;
+            PlayText(3f, "", false,true) ;
         }
     }
     /// <summary>
@@ -75,6 +75,10 @@ public class TextA : MonoBehaviour
         {
             text.text = "";
             text.DOText(strArr[idx], textSpeed, true).SetDelay(0f);
+            if(string.Join("",strArr)=="")
+            {
+                yield break;
+            }
             StartCoroutine(SoundGo(textSpeed / strArr[idx].Length, textSpeed));
             idx++;
             if(idx==strArr.Length)

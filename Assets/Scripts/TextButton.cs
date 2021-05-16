@@ -51,7 +51,7 @@ public class TextButton : MonoBehaviour
     public void YesButtonGo(float time)
     { 
            // DelegateManager.Instance.YesOperation();
-           if(isYes)
+           if(!isYes)
         {
         ta.PlayText(time,strYes);
             isYes = true;
@@ -59,7 +59,7 @@ public class TextButton : MonoBehaviour
     }
     public void NoButtonGo(float time)
     {
-       if(isNo)
+       if(!isNo)
         {
         ta.PlayText(time, strNo);
             isNo = true;
@@ -67,7 +67,7 @@ public class TextButton : MonoBehaviour
     }
     public void PlayButtonGo(float time)
     {
-     if(isPlay)
+     if(!isPlay)
         {
         ta.PlayText(time, strPlay);
             isPlay = true;
