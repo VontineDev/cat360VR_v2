@@ -5,6 +5,7 @@ using UnityEngine;
 public class RainManager : MonoBehaviour
 {
     public GameObject rain;
+
     #region singleton
     public static RainManager Instance;
     private void Awake()

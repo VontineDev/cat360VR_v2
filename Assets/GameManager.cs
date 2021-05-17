@@ -42,14 +42,14 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print($"GameManager Update");
+        //print($"GameManager Update");
 
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
-        {
-            print($"GameManager Update GetDown PrimaryIndexTrigger");
+        //if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+        //{
+        //    print($"GameManager Update GetDown PrimaryIndexTrigger");
 
-            DelegateManager.Instance.FadeOperation();
-        }
+        //    DelegateManager.Instance.FadeOperation();
+        //}
     }
 
     void ShowBtnStart()

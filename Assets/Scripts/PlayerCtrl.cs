@@ -38,14 +38,7 @@ public class PlayerCtrl : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        //if (OVRInput.GetDown(OVRInput.RawButton.RIndexTrigger))
-        //{
-        //    test++;
-        //    MovePlace(test);
-        //}
-    }
+  
     /// <summary>
     /// 해당 장소로 이동
     /// </summary>
@@ -60,12 +53,14 @@ public class PlayerCtrl : MonoBehaviour
                 //  eyePos.rotation = Quaternion.identity;
                 break;
             case 1:
+                RainManager.Instance.SetRain(true);
                 Camera.main.cullingMask += LayerMask.GetMask("World1");
                 //  transform.position = new Vector3(10, 0, 0);
                 //  eyePos.rotation = Quaternion.identity;
                 break;
             case 2:
 
+         
                 Camera.main.cullingMask += LayerMask.GetMask("World2");
                 //  transform.position = new Vector3(20, 0, 0);
                 //  eyePos.rotation = Quaternion.identity;
@@ -77,6 +72,7 @@ public class PlayerCtrl : MonoBehaviour
                 //  eyePos.rotation = Quaternion.identity;
                 break;
             case 4:
+                RainManager.Instance.SetRain(false);
                 Camera.main.cullingMask += LayerMask.GetMask("World4");
                 //transform.position = new Vector3(40, 0, 0);
                 //eyePos.rotation = Quaternion.identity;

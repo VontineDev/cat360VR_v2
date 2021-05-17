@@ -25,6 +25,7 @@ public class TextButton : MonoBehaviour
     private bool isYes = false;
     private bool isPlay = false;
     private int noCount = 0;
+    public SoundManager sm;
     private void Start()
     {
         noCount = 0;
@@ -54,6 +55,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isYes)
         {
+            sm.PlaySound();
             ta.PlayText(time,2f, strYes);
             isYes = true;
             DelegateManager.Instance.YesOperation();
@@ -63,7 +65,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isNo)
         {
-           
+            sm.PlaySound();
             switch (noCount)
             {
                 case 0:
@@ -90,6 +92,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isPlay)
         {
+            sm.PlaySound();
             ta.PlayText(time, 2f, strPlay);
             Invoke("NextText", time);
             isPlay = true;

@@ -21,10 +21,7 @@ public class TextStreamer : MonoBehaviour
     private IEnumerator corutine;
 
     // Start is called before the first frame update
-    void Start()
-    {
-    }
-
+    
     public void TextStreaming()
     {
 

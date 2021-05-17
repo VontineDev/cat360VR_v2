@@ -57,14 +57,11 @@ public class TextA : MonoBehaviour
         PlayText(2f,2f, str);
     }
 
-    public void Update()
+    private void Instance_FoundCatOperate_test()
     {
-        //if (OVRInput.GetDown(OVRInput.RawButton.B))
-        //{
-        //    Debug.Log("zl");
-        //    PlayText(3f, "", false, true);
-        //}
+       //여기 만드세요.
     }
+  
     /// <summary>
     /// 실행함수
     /// </summary>
