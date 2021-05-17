@@ -22,23 +22,23 @@ public class PlayerCtrl : MonoBehaviour
     }
 
     private void Instance_WorldChangeOperate()
-    {
-        worldNum++;
+    {  //0 1 2 3 4
+        worldNum++;  //1 2 3 4 5
         print("Instance_WorldChangeOperate");
 
         if (worldNum < 5)
         {
             print($"Instance_WorldChangeOperate WorldNumber: {worldNum}");
-            MovePlace(worldNum);
-        }
-        else
-        {
-            print("고양이가 다가오게만들어라");
-            DelegateManager.Instance.ComeCatOperation();    //ComCatOperation 대리자 호출
+            MovePlace(worldNum); //1 2 3 4
+            if (worldNum == 4)
+            {
+                print("고양이가 다가오게만들어라");
+                DelegateManager.Instance.ComeCatOperation();    //ComCatOperation 대리자 호출
+            }
         }
     }
 
-  
+
     /// <summary>
     /// 해당 장소로 이동
     /// </summary>
@@ -60,7 +60,7 @@ public class PlayerCtrl : MonoBehaviour
                 break;
             case 2:
 
-         
+
                 Camera.main.cullingMask += LayerMask.GetMask("World2");
                 //  transform.position = new Vector3(20, 0, 0);
                 //  eyePos.rotation = Quaternion.identity;

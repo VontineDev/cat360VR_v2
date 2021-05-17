@@ -28,13 +28,15 @@ public class FindCat : MonoBehaviour
         Instance_SearchCatOperate();
     }
 
+    
     private void Instance_SearchCatOperate()
     {
         print("Instance_SearchCatOperate");
 
         StartCoroutine(SearchCatImpl());
-
     }
+
+    //고양이를 찾는 Ray를 눈에서 발사!
     IEnumerator SearchCatImpl()
     {
 
@@ -45,7 +47,7 @@ public class FindCat : MonoBehaviour
             Debug.DrawRay(transform.position, f, Color.green);
             if (Physics.Raycast(transform.position, f, out hit))
             {
-                if (!isFound)
+                if (!isFound && hit.collider.tag=="Cat")
                 {
                     isFound = true;
                     Debug.Log("고양이다");

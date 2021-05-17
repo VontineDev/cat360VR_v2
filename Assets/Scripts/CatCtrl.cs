@@ -79,6 +79,12 @@ public class CatCtrl : MonoBehaviour
         }
     }
 
+    void IdleCat()
+    {
+        SetState(Cat_State.idle);     
+        //대화창 고양이를 쓰다듬어보자 띄우기
+    }
+ 
     IEnumerator ComeCat()
     {
         SetState(Cat_State.walk);
@@ -91,6 +97,7 @@ public class CatCtrl : MonoBehaviour
             timePassed += Time.deltaTime;
             this.gameObject.transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
+        IdleCat();
     }
 
     //고양이가 run Animation을 취하고 자신의 foward방향으로 4초동안 도망간다
