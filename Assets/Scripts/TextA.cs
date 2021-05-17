@@ -38,37 +38,46 @@ public class TextA : MonoBehaviour
     {
         DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
         DelegateManager.Instance.RunCatOperate += Instance_RunCatOperate;
-        DelegateManager.Instance.ComeCatOperate += Instance_ComeCatOperate;//고양이 다가오는 부분
+        DelegateManager.Instance.TouchCatOperate += Instance_TouchCatOperate;
+        DelegateManager.Instance.TouchCompleteOperate += Instance_TouchCompleteOperate;
     }
 
-    private void Instance_RunCatOperate()
-    {
-        var str = "쫓아가자";
-        PlayText(2f,2f, str);
-        DelegateManager.Instance.FadeOperation();
-    }
 
     private void Instance_FoundCatOperate()
     {
         var str = "찾았다!";
         PlayText(2f, 2f, str);
     }
-
+    private void Instance_RunCatOperate()
+    {
+        var str = "쫓아가자";
+        PlayText(2f, 2f, str);
+        DelegateManager.Instance.FadeOperation();
+    }
     /// <summary>
     /// 고양이 다가올때 텍스트
     /// </summary>
-    private void Instance_ComeCatOperate()
-    {
-        var str = "냐옹아 집이 좋지?";
-        PlayText(3f, 2f, str);
-    }
+
     /// <summary>
     /// 고양이 쓰다듬을 때
     /// </summary>
     private void Instance_TouchCatOperate()
     {
-        var str = "재시작 하실건가요?";
-        PlayText(3f, 2f, str,true);
+        var str = "고양이를 쓰다듬어보자";
+        PlayText(3f, 2f, str);
+    }
+    private void Instance_TouchCompleteOperate()
+    {
+        var str = "냐옹아 집이 좋지?";
+        PlayText(3f, 2f, str);
+        Invoke("touchText", 3.5f);
+    }
+
+
+    public void touchText()
+    {
+        var str = "재시작 하실 건가요?";
+        PlayText(3f, 2f, str, false, false, true);
     }
     /// <summary>
     /// 실행함수
@@ -77,12 +86,12 @@ public class TextA : MonoBehaviour
     ///  <param name="s">textArea에쓴 내용 (출력할 텍스트)</param>
     /// <param name="isButtonYesNO">yesno버튼쓸건가요?</param>
     /// <param name="isButtonPlay">플레이버튼쓸껀가요?</param>
-    public void PlayText(float time,float textSpeed, string s, bool isButtonYesNO = false, bool isButtonPlay = false)
+    public void PlayText(float time, float textSpeed, string s, bool isButtonYesNO = false, bool isButtonPlay = false, bool isButtonPlay2 = false)
     {
         string[] strArr = s.Split('\n');
         //일단 대화창 키고
         talkWindow.SetActive(true);
-        corutine = textGo(time,textSpeed, strArr);
+        corutine = textGo(time, textSpeed, strArr);
         StartCoroutine(corutine);
         if (isButtonYesNO)
         {
@@ -92,16 +101,20 @@ public class TextA : MonoBehaviour
         {
             tb.SetActivePlayButton(strArr.Length * time);
         }
-        if (!isButtonYesNO && !isButtonPlay)
+        if (isButtonPlay2)
+        {
+            tb.SetActiveButton2(strArr.Length * time);
+        }
+        if (!isButtonYesNO && !isButtonPlay&&!isButtonPlay2)
         {
             //버튼이 없을경우 대화가 끝나고 종료
-            Invoke("CloseText", strArr.Length *time);
+            Invoke("CloseText", strArr.Length * time);
         }
     }
 
 
 
-    public void PlayText2(float time,float textSpeed, string s)
+    public void PlayText2(float time, float textSpeed, string s)
     {
         string[] strArr = s.Split('\n');
         //일단 대화창 키고
@@ -111,7 +124,7 @@ public class TextA : MonoBehaviour
 
     }
 
-    IEnumerator textGo(float time,float textSpeed, string[] strArr)
+    IEnumerator textGo(float time, float textSpeed, string[] strArr)
     {
         idx = 0;
 
@@ -127,12 +140,12 @@ public class TextA : MonoBehaviour
             int strSpace = 0;
             for (int i = 0; i < strArr[idx].Length; i++)
             {
-                if(strArr[idx][i]==' ')
+                if (strArr[idx][i] == ' ')
                 {
                     strSpace++;
                 }
             }
-            StartCoroutine(SoundGo(textSpeed / (strArr[idx].Length-strSpace), textSpeed));
+            StartCoroutine(SoundGo(textSpeed / (strArr[idx].Length - strSpace), textSpeed));
             idx++;
             if (idx == strArr.Length)
             {

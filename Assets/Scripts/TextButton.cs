@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class TextButton : MonoBehaviour
 {
     [Tooltip("버튼")]
@@ -16,6 +17,7 @@ public class TextButton : MonoBehaviour
     public string strNo;
     [Tooltip("버튼")]
     public Button playButton;
+    public Button playButton2;
     [Tooltip("Enter로 줄간격 나눈 문장이 출력됩니다.10줄까지가능")]
     [TextArea(1, 10)]
     public string strPlay;
@@ -24,6 +26,7 @@ public class TextButton : MonoBehaviour
     private bool isNo = false;
     private bool isYes = false;
     private bool isPlay = false;
+    private bool isRestart = false;
     private int noCount = 0;
     public SoundManager sm;
     private void Start()
@@ -32,17 +35,27 @@ public class TextButton : MonoBehaviour
         isNo = false;
         isYes = false;
         isPlay = false;
+        isRestart = false;
     }
     public void SetActiveButton(float time)
     {
         Invoke("SetInvokeButtonYesNO", time);
         isNo = false;
         isYes = false;
+        noCount = 0;
+    }
+    public void SetActiveButton2(float time)
+    {
+        Invoke("SetInvokePlayButton2", time);
     }
     private void SetInvokeButtonYesNO()
     {
         Yes.gameObject.SetActive(true);
         No.gameObject.SetActive(true);
+    }
+    private void SetInvokePlayButton2()
+    {
+        playButton2.gameObject.SetActive(true);
     }
     public void SetActivePlayButton(float time)
     {
@@ -58,12 +71,13 @@ public class TextButton : MonoBehaviour
         if (!isYes)
         {
             sm.PlaySound();
-            ta.PlayText(time,2f, strYes);
+            ta.PlayText(time, 2f, strYes);
             isYes = true;
             DelegateManager.Instance.YesOperation();
-            strYes = "";
+            //  strYes = "";
         }
     }
+
     public void NoButtonGo(float time)
     {
         if (!isNo)
@@ -88,7 +102,7 @@ public class TextButton : MonoBehaviour
                     break;
             }
             noCount++;
-            
+
         }
     }
     public void PlayButtonGo(float time)
@@ -101,8 +115,21 @@ public class TextButton : MonoBehaviour
             isPlay = true;
         }
     }
+    public void PlayButtonGo2(float time)
+    {
+        if (!isRestart)
+        {
+            sm.PlaySound();
+            ta.PlayText(time, 2f, "재시작 합니다.");
+            Invoke("Restart", time);
+            isRestart = true;
+        }
 
-
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);
+    }
 
     public void NextText()
     {

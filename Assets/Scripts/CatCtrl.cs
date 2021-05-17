@@ -36,6 +36,13 @@ public class CatCtrl : MonoBehaviour
         DelegateManager.Instance.WorldChangeOperate += Instance_WorldChangeOperate;
         DelegateManager.Instance.SearchCatOperate += Instance_SearchCatOperate;
         DelegateManager.Instance.ComeCatOperate += Instance_ComeCatOperate;
+        DelegateManager.Instance.TouchCompleteOperate += Instance_TouchCompleteOperate;
+    }
+
+    //고양이를 터치했을 때 다른 사운드 플레이
+    private void Instance_TouchCompleteOperate()
+    {
+        SoundManager.Instance.happayNyangSound();//행복한 고양이 소리가 들린다.
     }
 
     //ComeCatOperate 대리자 호출하면 동작, 고양이가 나에게 다가온다.
@@ -83,7 +90,7 @@ public class CatCtrl : MonoBehaviour
     {
         SetState(Cat_State.idle);
         //대화창 고양이를 쓰다듬어보자 띄우기
-        DelegateManager.Instance.PetCatOperation();
+        DelegateManager.Instance.TouchCatOperation();
     }
 
     IEnumerator ComeCat()

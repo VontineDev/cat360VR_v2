@@ -31,8 +31,8 @@ public class DelegateManager : MonoBehaviour
     public event Action ComeCatOperate;     //고양이가 다가옴
     public event Action FadeOperate;        //페이드 아웃, 인
     public event Action WorldChangeOperate; //월드 바꾸기
-    public event Action PetCatOperate;      //고양이를 쓰다듬자
-
+    public event Action TouchCatOperate;      //고양이를 쓰다듬자
+    public event Action TouchCompleteOperate;   //고양이를 쓰다듬었다
     //이벤트핸들러인경우
 
     public event EventHandler SaveEvent;
@@ -85,11 +85,14 @@ public class DelegateManager : MonoBehaviour
     {
         WorldChangeOperate?.Invoke();
     }
-    public void PetCatOperation()
+    public void TouchCatOperation()
     {
-        PetCatOperate?.Invoke();
+        TouchCatOperate?.Invoke();
     }
-
+    public void TouchCompleteOperation()
+    {
+        TouchCompleteOperate?.Invoke();
+    }
     public void SaveEventOperation()
     {
         SaveEvent?.Invoke(this, EventArgs.Empty);  //매개변수가 아직은 없다
