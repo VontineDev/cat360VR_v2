@@ -36,6 +36,8 @@ public class TextButton : MonoBehaviour
     public void SetActiveButton(float time)
     {
         Invoke("SetInvokeButtonYesNO", time);
+        isNo = false;
+        isYes = false;
     }
     private void SetInvokeButtonYesNO()
     {
@@ -59,6 +61,7 @@ public class TextButton : MonoBehaviour
             ta.PlayText(time,2f, strYes);
             isYes = true;
             DelegateManager.Instance.YesOperation();
+            strYes = "";
         }
     }
     public void NoButtonGo(float time)

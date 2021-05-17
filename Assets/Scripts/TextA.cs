@@ -16,11 +16,7 @@ public class TextA : MonoBehaviour
     [Tooltip("출력할 텍스트오브젝트")]
     public Text text;
     private int idx = 0;
-    [Tooltip("문장 출력 속도")]
-    [Range(2, 10)]
-    //public float textSpeed;
 
-    public bool isEnd;//창을 닫을 때 판단변수
     public GameObject talkWindow;//대화창
     private IEnumerator corutine;
     private int size;
@@ -42,6 +38,7 @@ public class TextA : MonoBehaviour
     {
         DelegateManager.Instance.FoundCatOperate += Instance_FoundCatOperate;
         DelegateManager.Instance.RunCatOperate += Instance_RunCatOperate;
+        DelegateManager.Instance.ComeCatOperate += Instance_ComeCatOperate;//고양이 다가오는 부분
     }
 
     private void Instance_RunCatOperate()
@@ -54,14 +51,25 @@ public class TextA : MonoBehaviour
     private void Instance_FoundCatOperate()
     {
         var str = "찾았다!";
-        PlayText(2f,2f, str);
+        PlayText(2f, 2f, str);
     }
 
-    private void Instance_FoundCatOperate_test()
+    /// <summary>
+    /// 고양이 다가올때 텍스트
+    /// </summary>
+    private void Instance_ComeCatOperate()
     {
-       //여기 만드세요.
+        var str = "냐옹아 집이 좋지?";
+        PlayText(3f, 2f, str);
     }
-  
+    /// <summary>
+    /// 고양이 쓰다듬을 때
+    /// </summary>
+    private void Instance_TouchCatOperate()
+    {
+        var str = "재시작 하실건가요?";
+        PlayText(3f, 2f, str,true);
+    }
     /// <summary>
     /// 실행함수
     /// </summary>
