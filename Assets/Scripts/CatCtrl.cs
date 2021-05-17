@@ -81,10 +81,11 @@ public class CatCtrl : MonoBehaviour
 
     void IdleCat()
     {
-        SetState(Cat_State.idle);     
+        SetState(Cat_State.idle);
         //대화창 고양이를 쓰다듬어보자 띄우기
+        DelegateManager.Instance.PetCatOperation();
     }
- 
+
     IEnumerator ComeCat()
     {
         SetState(Cat_State.walk);
