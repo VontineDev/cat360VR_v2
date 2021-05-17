@@ -2546,7 +2546,6 @@ MonoBehaviour:
   str: "\uB0D0\uC639\uC774\uAC00 \uC5B4\uB514\uB85C \uAC14\uC9C0?\n...\n\uCC3E\uC73C\uB7EC
     \uAC08\uAE4C?"
   text: {fileID: 6211579304468346084}
-  textSpeed: 2
   isEnd: 0
   talkWindow: {fileID: 6211579305809618744}
   sm: {fileID: 2306711781272695231}
@@ -2685,10 +2684,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9d4fafe5da8913644bb6bcf5b2a1eca4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4d8702ee7f4147d45a2afd712e45d160, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 3
   Loop: 0
   Mute: 0
   Spatialize: 0
