@@ -1,0 +1,510 @@
+2021-05-17T16:21:01.243Z:debug3516/3464 [SEO] ShellApplication
+startActivityFromRecents: Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T16:21:01.244Z:debug3516/3464 [SEO] ShellApplication
+startActivity Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T16:21:01.254Z:info1904/1016 ActivityTaskManager
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras)} from uid 10020
+2021-05-17T16:21:01.255Z:debug1904/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{9c050ff u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T16:21:01.255Z:debug1904/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{9c050ff u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T16:21:01.991Z:info1804/1715 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T16:21:02.079Z:debug1804/1715 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T16:21:02.094Z:debug1804/1715 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T16:21:02.122Z:info1804/1715 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T16:21:02.096Z:debug1804/1715 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T16:21:02.368Z:debug1804/1715 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T16:21:02.370Z:debug1804/1715 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T16:21:02.383Z:info1804/1715 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T16:21:02.410Z:debug1804/1715 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T16:21:02.423Z:debug1804/1715 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T16:21:02.414Z:debug1804/1715 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T16:21:06.585Z:info1767/1715 Unity
+Unity v2019.4.7f1, Oculus Utilities v1.57.0, OVRPlugin v1.57.0, SDK v1.1.42.0. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.609Z:info1767/1715 Unity
+SystemHeadset Oculus_Quest, API VRAPI <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.632Z:info1767/1715 Unity
+OVRPlugin.Media initialized <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.643Z:info1767/1715 Unity
+[MRC] SetMrcAudioSampleRate(48000) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.647Z:info1767/1715 Unity
+[MRC] Active InputVideoBufferType:TextureHandle <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.649Z:info1767/1715 Unity
+[MRC] ActivateMode: Automatic <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.682Z:info1767/1715 Unity
+Current display frequency 72, available frequencies [60, 72] <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.832Z:info1767/1715 Unity
+Unity testTrigger <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.857Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.857Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:21:06.857Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.888Z:info1767/1715 Unity
+The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.889Z:info1767/1715 Unity
+[OVRManager] HMDAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.890Z:info1767/1715 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.891Z:info1767/1715 Unity
+[OVRManager] VrFocusAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.898Z:info1767/1715 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:06.900Z:info1767/1715 Unity
+Recenter event detected <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:29.410Z:info1767/1715 Unity
+Instance_YesOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:29.411Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:29.412Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:34.464Z:info1767/1715 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:40.996Z:info1767/1715 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:42.415Z:info1767/1715 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:42.416Z:info1767/1715 Unity
+Instance_WorldChangeOperate WorldNumber: 1 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:42.418Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:42.418Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:21:42.418Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:42.436Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:42.437Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:21:42.437Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:45.115Z:info1767/1715 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:51.646Z:info1767/1715 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:53.052Z:info1767/1715 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:53.052Z:info1767/1715 Unity
+Instance_WorldChangeOperate WorldNumber: 2 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:53.052Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:53.052Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:21:53.052Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:53.065Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:53.065Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:21:53.065Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:21:54.237Z:info1767/1715 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:00.766Z:info1767/1715 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:02.186Z:info1767/1715 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:02.186Z:info1767/1715 Unity
+Instance_WorldChangeOperate WorldNumber: 3 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:02.186Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:02.186Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:22:02.186Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:02.199Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:02.199Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:22:02.199Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:06.015Z:info1767/1715 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:12.545Z:info1767/1715 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:13.951Z:info1767/1715 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:13.951Z:info1767/1715 Unity
+Instance_WorldChangeOperate WorldNumber: 4 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:13.953Z:info1767/1715 Unity
+고양이가 다가오게만들어라 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:13.954Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:13.954Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:22:13.954Z:info1767/1715 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:13.965Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:13.965Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:22:13.965Z:info1767/1715 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:24.950Z:info1767/1715 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:24.965Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:25.410Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 32 lines
+2021-05-17T16:22:25.424Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:25.438Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:25.869Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 31 lines
+2021-05-17T16:22:25.884Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:25.897Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.148Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 18 lines
+2021-05-17T16:22:26.162Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.176Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.260Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 6 lines
+2021-05-17T16:22:26.273Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.287Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.357Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 5 lines
+2021-05-17T16:22:26.371Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.385Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.413Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:22:26.426Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.441Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.538Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 7 lines
+2021-05-17T16:22:26.551Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.566Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.580Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.803Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 16 lines
+2021-05-17T16:22:26.816Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.830Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.872Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 3 lines
+2021-05-17T16:22:26.886Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.900Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:26.942Z:info1767/1715 chatty
+uid=10100(com.DefaultCompany.cat360VR_v2) UnityMain identical 3 lines
+2021-05-17T16:22:26.955Z:info1767/1715 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:32.023Z:info1767/1715 Unity
+OnTriggerEnter, Collider : GrabVolumeSmall <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:32.037Z:info1767/1715 Unity
+OnTriggerEnter, Collider : GrabVolumeBig <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:32.086Z:error1767/1715 Unity
+NullReferenceException: Object reference not set to an instance of an object<br>  at SoundManager.happayNyangSound () [0x00008] in <f297bc55faad4913be254bd914fb9022>:0 <br>  at CatCtrl.Instance_TouchCompleteOperate () [0x00000] in <f297bc55faad4913be254bd914fb9022>:0 <br>  at (wrapper delegate-invoke) <Module>.invoke_void()<br>  at DelegateManager.TouchCompleteOperation () [0x0000a] in <f297bc55faad4913be254bd914fb9022>:0 <br>  at testTrigger.OnTriggerEnter (UnityEngine.Collider other) [0x00049] in <f297bc55faad4913be254bd914fb9022>:0 <br> <br>(Filename: <f297bc55faad4913be254bd914fb9022> Line: 0)<br><br>
+2021-05-17T16:22:40.572Z:info1767/1715 Unity
+OnTriggerEnter, Collider : GrabVolumeSmall <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:40.600Z:info1767/1715 Unity
+OnTriggerEnter, Collider : GrabVolumeBig <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:22:40.603Z:error1767/1715 Unity
+NullReferenceException: Object reference not set to an instance of an object<br>  at SoundManager.happayNyangSound () [0x00008] in <f297bc55faad4913be254bd914fb9022>:0 <br>  at CatCtrl.Instance_TouchCompleteOperate () [0x00000] in <f297bc55faad4913be254bd914fb9022>:0 <br>  at (wrapper delegate-invoke) <Module>.invoke_void()<br>  at DelegateManager.TouchCompleteOperation () [0x0000a] in <f297bc55faad4913be254bd914fb9022>:0 <br>  at testTrigger.OnTriggerEnter (UnityEngine.Collider other) [0x00049] in <f297bc55faad4913be254bd914fb9022>:0 <br> <br>(Filename: <f297bc55faad4913be254bd914fb9022> Line: 0)<br><br>
+2021-05-17T16:24:43.060Z:info1767/1715 Unity
+[OVRManager] HMDUnmounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:24:43.714Z:info1767/1715 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:24:48.993Z:info1767/1715 Unity
+[OVRManager] InputFocusLost event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:24:49.049Z:info1767/1715 Unity
+[OVRManager] OnApplicationFocus(false) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:24:50.106Z:info1767/1715 Unity
+[OVRManager] OnApplicationPause(true) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:24:50.120Z:info1804/1715 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T16:24:50.178Z:debug1804/1715 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T16:24:50.179Z:debug1804/1715 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T16:24:50.232Z:debug1715/1715 ContextHelper
+shouldSkipFinish: activity=com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T16:24:50.238Z:debug1715/1715 ContextHelper
+activity=com.unity3d.player.UnityPlayerActivity@cc5cfae, resumed=false
+2021-05-17T16:24:50.238Z:debug1715/1715 ContextHelper
+Calling finish() on com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T16:24:51.580Z:warn1107/1016 InputDispatcher
+channel '666b693 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+2021-05-17T16:24:51.580Z:error1107/1016 InputDispatcher
+channel '666b693 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2021-05-17T16:24:51.611Z:info1314/1016 WindowManager
+WIN DEATH: Window{666b693 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity}
+2021-05-17T16:24:51.611Z:warn1314/1016 InputDispatcher
+Attempted to unregister already unregistered input channel '666b693 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)'
+2021-05-17T16:26:21.204Z:debug3516/3464 [SEO] ShellApplication
+startActivityFromRecents: Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T16:26:21.205Z:debug3516/3464 [SEO] ShellApplication
+startActivity Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T16:26:21.210Z:info1904/1016 ActivityTaskManager
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras)} from uid 10020
+2021-05-17T16:26:21.211Z:debug1904/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{2fa3dd6 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T16:26:21.211Z:debug1904/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{2fa3dd6 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T16:26:21.928Z:info4261/4181 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T16:26:21.971Z:debug4261/4181 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T16:26:21.984Z:debug4261/4181 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T16:26:21.981Z:debug4261/4181 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T16:26:22.019Z:info4261/4181 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T16:26:22.264Z:debug4261/4181 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T16:26:22.267Z:debug4261/4181 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T16:26:22.273Z:info4261/4181 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T16:26:22.304Z:debug4261/4181 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T16:26:22.306Z:debug4261/4181 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T16:26:22.308Z:debug4261/4181 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T16:26:26.539Z:info4235/4181 Unity
+Unity v2019.4.7f1, Oculus Utilities v1.57.0, OVRPlugin v1.57.0, SDK v1.1.42.0. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.562Z:info4235/4181 Unity
+SystemHeadset Oculus_Quest, API VRAPI <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.585Z:info4235/4181 Unity
+OVRPlugin.Media initialized <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.595Z:info4235/4181 Unity
+[MRC] SetMrcAudioSampleRate(48000) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.599Z:info4235/4181 Unity
+[MRC] Active InputVideoBufferType:TextureHandle <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.601Z:info4235/4181 Unity
+[MRC] ActivateMode: Automatic <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.633Z:info4235/4181 Unity
+Current display frequency 72, available frequencies [60, 72] <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.781Z:info4235/4181 Unity
+Unity testTrigger <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.806Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.807Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:26:26.807Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.837Z:info4235/4181 Unity
+The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.840Z:info4235/4181 Unity
+[OVRManager] VrFocusAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.837Z:info4235/4181 Unity
+[OVRManager] HMDAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.839Z:info4235/4181 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.847Z:info4235/4181 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:26.849Z:info4235/4181 Unity
+Recenter event detected <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:55.228Z:info4235/4181 Unity
+Instance_YesOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:55.229Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:26:55.229Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:24.146Z:info4235/4181 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:30.678Z:info4235/4181 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:32.097Z:info4235/4181 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:32.098Z:info4235/4181 Unity
+Instance_WorldChangeOperate WorldNumber: 1 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:32.100Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:32.100Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:27:32.100Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:32.118Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:32.118Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:27:32.118Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:33.405Z:info4235/4181 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:39.937Z:info4235/4181 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:41.356Z:info4235/4181 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:41.356Z:info4235/4181 Unity
+Instance_WorldChangeOperate WorldNumber: 2 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:41.356Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:41.356Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:27:41.356Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:41.384Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:41.384Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:27:41.384Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:43.639Z:info4235/4181 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:50.169Z:info4235/4181 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:51.576Z:info4235/4181 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:51.576Z:info4235/4181 Unity
+Instance_WorldChangeOperate WorldNumber: 3 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:51.576Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:51.576Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:27:51.576Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:51.603Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:51.603Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:27:51.603Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:27:53.483Z:info4235/4181 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:00.014Z:info4235/4181 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:01.420Z:info4235/4181 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:01.420Z:info4235/4181 Unity
+Instance_WorldChangeOperate WorldNumber: 4 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:01.421Z:info4235/4181 Unity
+고양이가 다가오게만들어라 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:01.422Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:01.422Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:28:01.422Z:info4235/4181 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:01.433Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:01.433Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:28:01.433Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.066Z:info4235/4181 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.082Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.304Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 16 lines
+2021-05-17T16:28:05.318Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.332Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.346Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.360Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.374Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.387Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.526Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T16:28:05.541Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.555Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.568Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T16:28:05.583Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:05.597Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.042Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 32 lines
+2021-05-17T16:28:06.056Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.069Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.306Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 17 lines
+2021-05-17T16:28:06.321Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.334Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.460Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 9 lines
+2021-05-17T16:28:06.474Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.487Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.807Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 23 lines
+2021-05-17T16:28:06.822Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.836Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.891Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 4 lines
+2021-05-17T16:28:06.905Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:06.919Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:07.044Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 9 lines
+2021-05-17T16:28:07.058Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:07.072Z:info4235/4181 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:12.293Z:info4235/4181 Unity
+OnTriggerEnter, Collider : GrabVolumeSmall <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:12.363Z:info4235/4181 Unity
+OnTriggerEnter, Collider : GrabVolumeBig <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:24.008Z:info4235/4181 Unity
+[OVRManager] OnDestroy <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:24.013Z:info4235/4181 Unity
+Unity v2019.4.7f1, Oculus Utilities v1.57.0, OVRPlugin v1.57.0, SDK v1.1.42.0. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:24.013Z:info4235/4181 Unity
+SystemHeadset Oculus_Quest, API VRAPI <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:24.014Z:info4235/4181 Unity
+Current display frequency 72, available frequencies [60, 72] <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:24.043Z:info4235/4181 Unity
+Unity testTrigger <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:24.047Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:24.047Z:info4235/4181 chatty
+uid=10101(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T16:28:24.047Z:info4235/4181 Unity
+OnTriggerEnter, Collider : style <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:27.484Z:info4235/4181 Unity
+[OVRManager] HMDUnmounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:30.463Z:info4235/4181 Unity
+[OVRManager] TrackingLost event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:32.121Z:info4235/4181 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:32.859Z:info4235/4181 Unity
+[OVRManager] TrackingLost event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T16:28:36.953Z:info4235/4181 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>

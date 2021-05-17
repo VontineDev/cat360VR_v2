@@ -42,6 +42,7 @@ public class CatCtrl : MonoBehaviour
     //고양이를 터치했을 때 다른 사운드 플레이
     private void Instance_TouchCompleteOperate()
     {
+        print($"Instance_TouchCompleteOperate,happayNyangSound");
         SoundManager.Instance.happayNyangSound();//행복한 고양이 소리가 들린다.
     }
 

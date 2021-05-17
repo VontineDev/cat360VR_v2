@@ -1,0 +1,816 @@
+2021-05-17T17:11:46.277Z:debug3516/3464 [SEO] ShellApplication
+startActivityFromRecents: Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T17:11:46.277Z:debug3516/3464 [SEO] ShellApplication
+startActivityFromRecents: Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T17:11:46.277Z:debug3516/3464 [SEO] ShellApplication
+startActivityFromRecents: Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T17:11:46.278Z:debug3516/3464 [SEO] ShellApplication
+startActivity Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T17:11:46.278Z:debug3516/3464 [SEO] ShellApplication
+startActivity Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T17:11:46.278Z:debug3516/3464 [SEO] ShellApplication
+startActivity Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T17:11:46.279Z:info1158/1016 ActivityTaskManager
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras)} from uid 10020
+2021-05-17T17:11:46.280Z:debug1158/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e44b975 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T17:11:46.279Z:info1158/1016 ActivityTaskManager
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras)} from uid 10020
+2021-05-17T17:11:46.279Z:info1158/1016 ActivityTaskManager
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras)} from uid 10020
+2021-05-17T17:11:46.280Z:debug1158/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e44b975 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T17:11:46.280Z:debug1158/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e44b975 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T17:11:46.280Z:debug1158/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e44b975 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T17:11:46.280Z:debug1158/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e44b975 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T17:11:46.280Z:debug1158/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e44b975 u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T17:11:47.021Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.110Z:debug12886/12837 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T17:11:47.100Z:debug12886/12837 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T17:11:47.021Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.107Z:debug12886/12837 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T17:11:47.100Z:debug12886/12837 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T17:11:47.107Z:debug12886/12837 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T17:11:47.021Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.110Z:debug12886/12837 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T17:11:47.100Z:debug12886/12837 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T17:11:47.107Z:debug12886/12837 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T17:11:47.110Z:debug12886/12837 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T17:11:47.141Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.141Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.141Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.323Z:debug12886/12837 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T17:11:47.324Z:debug12886/12837 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T17:11:47.323Z:debug12886/12837 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T17:11:47.323Z:debug12886/12837 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T17:11:47.324Z:debug12886/12837 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T17:11:47.334Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.324Z:debug12886/12837 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T17:11:47.334Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.334Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:11:47.359Z:debug12886/12837 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T17:11:47.359Z:debug12886/12837 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T17:11:47.359Z:debug12886/12837 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T17:11:47.362Z:debug12886/12837 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T17:11:47.362Z:debug12886/12837 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T17:11:47.372Z:debug12886/12837 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T17:11:47.362Z:debug12886/12837 UnityVolumeReceiver
+startVolumeReceiver: 5
+2021-05-17T17:11:47.372Z:debug12886/12837 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T17:11:47.372Z:debug12886/12837 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T17:11:51.628Z:info12860/12837 Unity
+Unity v2019.4.7f1, Oculus Utilities v1.57.0, OVRPlugin v1.57.0, SDK v1.1.42.0. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.628Z:info12860/12837 Unity
+Unity v2019.4.7f1, Oculus Utilities v1.57.0, OVRPlugin v1.57.0, SDK v1.1.42.0. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.628Z:info12860/12837 Unity
+Unity v2019.4.7f1, Oculus Utilities v1.57.0, OVRPlugin v1.57.0, SDK v1.1.42.0. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.651Z:info12860/12837 Unity
+SystemHeadset Oculus_Quest, API VRAPI <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.651Z:info12860/12837 Unity
+SystemHeadset Oculus_Quest, API VRAPI <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.651Z:info12860/12837 Unity
+SystemHeadset Oculus_Quest, API VRAPI <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.675Z:info12860/12837 Unity
+OVRPlugin.Media initialized <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.675Z:info12860/12837 Unity
+OVRPlugin.Media initialized <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.675Z:info12860/12837 Unity
+OVRPlugin.Media initialized <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.685Z:info12860/12837 Unity
+[MRC] SetMrcAudioSampleRate(48000) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.685Z:info12860/12837 Unity
+[MRC] SetMrcAudioSampleRate(48000) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.685Z:info12860/12837 Unity
+[MRC] SetMrcAudioSampleRate(48000) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.690Z:info12860/12837 Unity
+[MRC] Active InputVideoBufferType:TextureHandle <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.690Z:info12860/12837 Unity
+[MRC] Active InputVideoBufferType:TextureHandle <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.690Z:info12860/12837 Unity
+[MRC] Active InputVideoBufferType:TextureHandle <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.691Z:info12860/12837 Unity
+[MRC] ActivateMode: Automatic <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.691Z:info12860/12837 Unity
+[MRC] ActivateMode: Automatic <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.691Z:info12860/12837 Unity
+[MRC] ActivateMode: Automatic <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.724Z:info12860/12837 Unity
+Current display frequency 72, available frequencies [60, 72] <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.724Z:info12860/12837 Unity
+Current display frequency 72, available frequencies [60, 72] <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.724Z:info12860/12837 Unity
+Current display frequency 72, available frequencies [60, 72] <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.874Z:info12860/12837 Unity
+Unity testTrigger <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.874Z:info12860/12837 Unity
+Unity testTrigger <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.874Z:info12860/12837 Unity
+Unity testTrigger <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.910Z:info12860/12837 Unity
+The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.910Z:info12860/12837 Unity
+The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.910Z:info12860/12837 Unity
+The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.910Z:info12860/12837 Unity
+[OVRManager] HMDAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.910Z:info12860/12837 Unity
+[OVRManager] HMDAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.910Z:info12860/12837 Unity
+[OVRManager] HMDAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.912Z:info12860/12837 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.912Z:info12860/12837 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.912Z:info12860/12837 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.912Z:info12860/12837 Unity
+[OVRManager] VrFocusAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.912Z:info12860/12837 Unity
+[OVRManager] VrFocusAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.912Z:info12860/12837 Unity
+[OVRManager] VrFocusAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.919Z:info12860/12837 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.919Z:info12860/12837 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.919Z:info12860/12837 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.921Z:info12860/12837 Unity
+Recenter event detected <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.921Z:info12860/12837 Unity
+Recenter event detected <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:51.921Z:info12860/12837 Unity
+Recenter event detected <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:52.669Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:52.669Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:52.669Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:52.669Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:11:52.669Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:52.669Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:11:52.669Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:52.669Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:11:52.669Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:17.545Z:info12860/12837 Unity
+Instance_YesOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.545Z:info12860/12837 Unity
+Instance_YesOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.545Z:info12860/12837 Unity
+Instance_YesOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.546Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.546Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.546Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.546Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.546Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:17.546Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:22.125Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:22.125Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:22.125Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:28.657Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:28.657Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:28.657Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.076Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.076Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.076Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.077Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 1 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.077Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 1 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.077Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 1 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.079Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.079Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.079Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.079Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:30.079Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.097Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.079Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.097Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.079Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:30.079Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.097Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.079Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:30.098Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:30.098Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.098Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:30.098Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:30.098Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:30.098Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:36.717Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:36.717Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:36.717Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:43.247Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:43.247Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:43.247Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 2 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 2 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 2 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:44.654Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.681Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.681Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:44.654Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.681Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.681Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:44.681Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.654Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.681Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.681Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:44.681Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:44.681Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:48.218Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:48.218Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:48.218Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:54.748Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:54.748Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:54.748Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 3 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 3 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 3 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:56.157Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.182Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.182Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.182Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.182Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.182Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:56.182Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:56.157Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:12:56.157Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.182Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.182Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:12:56.182Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.935Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.935Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:12:56.935Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:00.707Z:info12860/12837 Unity
+[OVRManager] HMDUnmounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:00.707Z:info12860/12837 Unity
+[OVRManager] HMDUnmounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:00.707Z:info12860/12837 Unity
+[OVRManager] HMDUnmounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:02.977Z:info12860/12837 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:02.977Z:info12860/12837 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:02.977Z:info12860/12837 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:03.465Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:03.465Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:03.465Z:info12860/12837 Unity
+FadeManager Instance_FadeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.899Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.900Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 4 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.900Z:info12860/12837 Unity
+고양이가 다가오게만들어라 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.900Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 4 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.900Z:info12860/12837 Unity
+고양이가 다가오게만들어라 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.899Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.900Z:info12860/12837 Unity
+Instance_WorldChangeOperate WorldNumber: 4 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.899Z:info12860/12837 Unity
+Instance_WorldChangeOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.900Z:info12860/12837 Unity
+고양이가 다가오게만들어라 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.901Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.901Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.901Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.901Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:04.901Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.912Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.901Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:04.901Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:04.901Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.912Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.901Z:info12860/12837 Unity
+Instance_SearchCatOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.912Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.913Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:13:04.913Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:13:04.913Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 2 lines
+2021-05-17T17:13:04.913Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.913Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:04.913Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : style, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.853Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.853Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.853Z:info12860/12837 Unity
+고양이다 <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.867Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.867Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.867Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.937Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 5 lines
+2021-05-17T17:13:08.937Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 5 lines
+2021-05-17T17:13:08.937Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 5 lines
+2021-05-17T17:13:08.951Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.951Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.951Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.964Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.964Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:08.964Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.061Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 7 lines
+2021-05-17T17:13:09.061Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 7 lines
+2021-05-17T17:13:09.061Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 7 lines
+2021-05-17T17:13:09.075Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.075Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.075Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.090Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.090Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.090Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.103Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.103Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.103Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.117Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.117Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.117Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.354Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 17 lines
+2021-05-17T17:13:09.367Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.367Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.382Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.354Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 17 lines
+2021-05-17T17:13:09.382Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.367Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.354Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 17 lines
+2021-05-17T17:13:09.382Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.897Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 37 lines
+2021-05-17T17:13:09.911Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.897Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 37 lines
+2021-05-17T17:13:09.897Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 37 lines
+2021-05-17T17:13:09.911Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.911Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.924Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.924Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:09.924Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.064Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.078Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.064Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.078Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.092Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.092Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.078Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.064Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.092Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.106Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:10.120Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.106Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:10.120Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.106Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:10.120Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.134Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.134Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.134Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.273Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.287Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.273Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.301Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.273Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.287Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.287Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.301Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.301Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.357Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 4 lines
+2021-05-17T17:13:10.357Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 4 lines
+2021-05-17T17:13:10.370Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.357Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 4 lines
+2021-05-17T17:13:10.370Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.384Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.370Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.384Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.384Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.537Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 11 lines
+2021-05-17T17:13:10.537Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 11 lines
+2021-05-17T17:13:10.537Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 11 lines
+2021-05-17T17:13:10.552Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.552Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.552Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.565Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.565Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.565Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.579Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:10.579Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:10.593Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.593Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.593Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.607Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.607Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.607Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.579Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 1 line
+2021-05-17T17:13:10.746Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.746Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.746Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 10 lines
+2021-05-17T17:13:10.760Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.760Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.760Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.774Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.774Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.774Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.843Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 5 lines
+2021-05-17T17:13:10.858Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.843Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 5 lines
+2021-05-17T17:13:10.858Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:10.843Z:info12860/12837 chatty
+uid=10104(com.DefaultCompany.cat360VR_v2) UnityMain identical 5 lines
+2021-05-17T17:13:10.858Z:info12860/12837 Unity
+ComeCat <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.691Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : GrabVolumeBig, tag: Hand <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.691Z:info12860/12837 Unity
+In the isTouchable <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.691Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : GrabVolumeBig, tag: Hand <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.691Z:info12860/12837 Unity
+In the isTouchable <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.691Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : GrabVolumeBig, tag: Hand <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.691Z:info12860/12837 Unity
+In the isTouchable <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.692Z:info12860/12837 Unity
+Instance_TouchCompleteOperate,happayNyangSound <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.692Z:info12860/12837 Unity
+Instance_TouchCompleteOperate,happayNyangSound <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.692Z:info12860/12837 Unity
+Instance_TouchCompleteOperate,happayNyangSound <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.694Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : GrabVolumeSmall, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.694Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : GrabVolumeSmall, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.693Z:info12860/12837 Unity
+TextA: Instance_TouchCompleteOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.693Z:info12860/12837 Unity
+TextA: Instance_TouchCompleteOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.694Z:info12860/12837 Unity
+testTrigger: OnTriggerEnter, ColliderName : GrabVolumeSmall, tag: Untagged <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:16.693Z:info12860/12837 Unity
+TextA: Instance_TouchCompleteOperate <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:34.737Z:info12860/12837 Unity
+[OVRManager] InputFocusLost event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:34.737Z:info12860/12837 Unity
+[OVRManager] InputFocusLost event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:34.770Z:info12860/12837 Unity
+[OVRManager] OnApplicationFocus(false) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:34.770Z:info12860/12837 Unity
+[OVRManager] OnApplicationFocus(false) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:34.737Z:info12860/12837 Unity
+[OVRManager] InputFocusLost event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:34.770Z:info12860/12837 Unity
+[OVRManager] OnApplicationFocus(false) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:36.770Z:info12860/12837 Unity
+[OVRManager] OnApplicationPause(true) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:36.770Z:info12860/12837 Unity
+[OVRManager] OnApplicationPause(true) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:36.770Z:info12860/12837 Unity
+[OVRManager] OnApplicationPause(true) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T17:13:36.785Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:13:36.785Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:13:36.785Z:info12886/12837 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T17:13:36.817Z:debug12886/12837 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T17:13:36.819Z:debug12886/12837 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T17:13:36.817Z:debug12886/12837 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T17:13:36.819Z:debug12886/12837 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T17:13:36.817Z:debug12886/12837 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T17:13:36.819Z:debug12886/12837 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+shouldSkipFinish: activity=com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+activity=com.unity3d.player.UnityPlayerActivity@cc5cfae, resumed=false
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+shouldSkipFinish: activity=com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+Calling finish() on com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+activity=com.unity3d.player.UnityPlayerActivity@cc5cfae, resumed=false
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+shouldSkipFinish: activity=com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+activity=com.unity3d.player.UnityPlayerActivity@cc5cfae, resumed=false
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+Calling finish() on com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T17:13:36.848Z:debug12837/12837 ContextHelper
+Calling finish() on com.unity3d.player.UnityPlayerActivity@cc5cfae
+2021-05-17T17:13:38.011Z:warn1107/1016 InputDispatcher
+channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+2021-05-17T17:13:38.011Z:error1107/1016 InputDispatcher
+channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2021-05-17T17:13:38.011Z:error1107/1016 InputDispatcher
+channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2021-05-17T17:13:38.011Z:warn1107/1016 InputDispatcher
+channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+2021-05-17T17:13:38.047Z:info1370/1016 WindowManager
+WIN DEATH: Window{4e1157c u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity}
+2021-05-17T17:13:38.047Z:warn1370/1016 InputDispatcher
+Attempted to unregister already unregistered input channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)'
+2021-05-17T17:13:38.047Z:info1370/1016 WindowManager
+WIN DEATH: Window{4e1157c u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity}
+2021-05-17T17:13:38.047Z:warn1370/1016 InputDispatcher
+Attempted to unregister already unregistered input channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)'
+2021-05-17T17:13:38.011Z:warn1107/1016 InputDispatcher
+channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+2021-05-17T17:13:38.011Z:error1107/1016 InputDispatcher
+channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2021-05-17T17:13:38.047Z:info1370/1016 WindowManager
+WIN DEATH: Window{4e1157c u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity}
+2021-05-17T17:13:38.047Z:warn1370/1016 InputDispatcher
+Attempted to unregister already unregistered input channel '4e1157c com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (server)'

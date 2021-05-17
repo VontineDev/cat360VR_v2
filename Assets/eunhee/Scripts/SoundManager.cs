@@ -11,7 +11,7 @@ public class SoundManager : MonoBehaviour
 
     bool isMiaow;          //is cat crying?
 
-    bool isHappyCat;   
+    bool isHappyCat;
 
     public AudioSource audioSource;
 
@@ -34,7 +34,7 @@ public class SoundManager : MonoBehaviour
         isMiaow = false;
 
         isHappyCat = false;
-
+        happyNyang = this.GetComponent<AudioSource>();
         //bgm = GetComponent<AudioSource>();
         //  bgm.Play();
     }
@@ -61,7 +61,7 @@ public class SoundManager : MonoBehaviour
 
     public void happayNyangSound()
     {
-        if(isHappyCat == false)
+        if (isHappyCat == false)
         {
             happyNyang.Play();
 
@@ -80,8 +80,9 @@ public class SoundManager : MonoBehaviour
     }
 
     // Sound Object 생성, 3D AudioSource 생성
-    public void Exex() { 
-    
+    public void Exex()
+    {
+
         // AudioSource를 담을 Sound 이름을 가진 Object 생성
         GameObject soundObj = new GameObject("Sound");
 

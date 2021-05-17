@@ -68,6 +68,7 @@ public class TextA : MonoBehaviour
     }
     private void Instance_TouchCompleteOperate()
     {
+        print($"TextA: Instance_TouchCompleteOperate");
         var str = "냐옹아 집이 좋지?";
         PlayText(3f, 2f, str);
         Invoke("touchText", 3.5f);

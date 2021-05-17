@@ -1,0 +1,62 @@
+2021-05-17T15:52:08.410Z:debug3516/3464 [SEO] ShellApplication
+startActivityFromRecents: Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T15:52:08.411Z:debug3516/3464 [SEO] ShellApplication
+startActivity Intent { act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras) }
+2021-05-17T15:52:08.413Z:info2986/1016 ActivityTaskManager
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.INFO] flg=0x10010000 pkg=com.DefaultCompany.cat360VR_v2 cmp=com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity (has extras)} from uid 10020
+2021-05-17T15:52:08.414Z:debug2986/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e33154b u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T15:52:08.414Z:debug2986/1016 ActivityTaskManager
+Using main display for VR activity ActivityRecord{e33154b u0 com.DefaultCompany.cat360VR_v2/com.unity3d.player.UnityPlayerActivity t-1}
+2021-05-17T15:52:09.122Z:info24133/24087 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T15:52:09.214Z:debug24133/24087 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T15:52:09.233Z:debug24133/24087 UnityVolumeReceiver
+startVolumeReceiver: 3
+2021-05-17T15:52:09.235Z:debug24133/24087 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T15:52:09.253Z:info24133/24087 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T15:52:09.415Z:debug24133/24087 UnityVolumeReceiver
+Unregistering volume receiver
+2021-05-17T15:52:09.415Z:debug24133/24087 UnityBatteryReceiver
+Unregistering battery receiver
+2021-05-17T15:52:09.423Z:info24133/24087 VrRuntimeClient
+APP ACTIVITY CLASS = com.unity3d.player.UnityPlayerActivity
+2021-05-17T15:52:09.457Z:debug24133/24087 UnityVolumeReceiver
+Registering volume receiver
+2021-05-17T15:52:09.460Z:debug24133/24087 UnityBatteryReceiver
+Registering battery receiver
+2021-05-17T15:52:09.459Z:debug24133/24087 UnityVolumeReceiver
+startVolumeReceiver: 3
+2021-05-17T15:52:13.716Z:info24109/24087 Unity
+Unity v2019.4.7f1, Oculus Utilities v1.57.0, OVRPlugin v1.57.0, SDK v1.1.42.0. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:13.757Z:info24109/24087 Unity
+SystemHeadset Oculus_Quest, API VRAPI <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:13.779Z:info24109/24087 Unity
+OVRPlugin.Media initialized <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:13.790Z:info24109/24087 Unity
+[MRC] SetMrcAudioSampleRate(48000) <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:13.795Z:info24109/24087 Unity
+[MRC] Active InputVideoBufferType:TextureHandle <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:13.796Z:info24109/24087 Unity
+[MRC] ActivateMode: Automatic <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:13.831Z:info24109/24087 Unity
+Current display frequency 72, available frequencies [60, 72] <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.024Z:info24109/24087 Unity
+Unity : Cat_Lite OnTrigger GrabVolumeBig <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.024Z:info24109/24087 Unity
+Unity : Cat_Lite OnTrigger GrabVolumeBig <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.044Z:info24109/24087 Unity
+The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level. <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.045Z:info24109/24087 Unity
+[OVRManager] HMDAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.046Z:info24109/24087 Unity
+[OVRManager] HMDMounted event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.047Z:info24109/24087 Unity
+[OVRManager] VrFocusAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.054Z:info24109/24087 Unity
+[OVRManager] TrackingAcquired event <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
+2021-05-17T15:52:14.056Z:info24109/24087 Unity
+Recenter event detected <br>(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)<br><br>
