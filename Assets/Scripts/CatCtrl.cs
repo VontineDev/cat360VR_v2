@@ -98,6 +98,7 @@ public class CatCtrl : MonoBehaviour
         SetState(Cat_State.walk);
         float timePassed = 0;
         float speed = 0.5f;
+        audioSource.Stop();
         while (timePassed < 2f)
         {
             yield return null;
