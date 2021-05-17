@@ -11,9 +11,7 @@ public class SoundManager : MonoBehaviour
 
     bool isMiaow;          //is cat crying?
 
-    bool isHappyCat;
-
-    AudioSource bgm;       //AudioSource of bgm
+    bool isHappyCat;   
 
     public AudioSource audioSource;
 
@@ -37,7 +35,7 @@ public class SoundManager : MonoBehaviour
 
         isHappyCat = false;
 
-        bgm = GetComponent<AudioSource>();
+        //bgm = GetComponent<AudioSource>();
         //  bgm.Play();
     }
 
