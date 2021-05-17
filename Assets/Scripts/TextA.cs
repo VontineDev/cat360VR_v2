@@ -146,7 +146,7 @@ public class TextA : MonoBehaviour
         float current = 0;
         while (true)
         {
-            sm.miaowSound();
+            sm.PlaySound();
             current += time;
             if (current >= end)
             {

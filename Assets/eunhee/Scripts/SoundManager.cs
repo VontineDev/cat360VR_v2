@@ -14,8 +14,7 @@ public class SoundManager : MonoBehaviour
     bool isMiaow;          //is cat crying?
 
     AudioSource bgm;       //AudioSource of bgm
-
-
+    public AudioSource audioSource;
     private void Awake()
     {
         if (!Instance)
@@ -44,5 +43,9 @@ public class SoundManager : MonoBehaviour
 
             isMiaow = false;
         }
+    }
+    public void PlaySound()
+    {
+        audioSource.Play();
     }
 }
