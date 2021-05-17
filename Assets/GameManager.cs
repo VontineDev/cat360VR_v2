@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
         {
             if(isStarted)
             {
-                tb.ta.PlayText(3f, tb.ta.str, true, false);
+                tb.ta.PlayText(3f,2f, tb.ta.str, true, false);
             }
             yield return new WaitForSeconds(0.1f);
         }
@@ -59,6 +59,6 @@ public class GameManager : MonoBehaviour
     }
     public void StartGame()
     {
-        tb.ta.PlayText(3f, "시작하려면 PLAY버튼을 컨트롤러A로 누르세요", false, true);
+        tb.ta.PlayText(3f,4f, "시작하려면 PLAY버튼을 컨트롤러A로 누르세요", false, true);
     }
 }

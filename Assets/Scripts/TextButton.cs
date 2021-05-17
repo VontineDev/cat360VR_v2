@@ -54,7 +54,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isYes)
         {
-            ta.PlayText(time, strYes);
+            ta.PlayText(time,2f, strYes);
             isYes = true;
             DelegateManager.Instance.YesOperation();
         }
@@ -67,16 +67,16 @@ public class TextButton : MonoBehaviour
             switch (noCount)
             {
                 case 0:
-                    ta.PlayText2(time, strNo);
+                    ta.PlayText2(time, 2f, strNo);
                     break;
                 case 1:
-                    ta.PlayText2(time, "아 하기싫어.");
+                    ta.PlayText2(time, 2f, "아 하기싫어.");
                     break;
                 case 2:
-                    ta.PlayText2(time, "내 목소리만 들어.");
+                    ta.PlayText2(time, 2f, "내 목소리만 들어.");
                     break;
                 case 3:
-                    ta.PlayText(time, "으아~가고싶다.");
+                    ta.PlayText(time, 2f, "으아~가고싶다.");
                     isYes = true;
                     isNo = true;
                     DelegateManager.Instance.YesOperation();
@@ -90,8 +90,8 @@ public class TextButton : MonoBehaviour
     {
         if (!isPlay)
         {
-            ta.PlayText(time, strPlay);
-            Invoke("NextText", time + time);
+            ta.PlayText(time, 2f, strPlay);
+            Invoke("NextText", time);
             isPlay = true;
         }
     }
@@ -100,7 +100,7 @@ public class TextButton : MonoBehaviour
 
     public void NextText()
     {
-        ta.PlayText(3f, ta.str, true, false);
+        ta.PlayText(3f, 2f, ta.str, true, false);
     }
 
 }

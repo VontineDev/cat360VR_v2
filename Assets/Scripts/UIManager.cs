@@ -35,7 +35,7 @@ public class UIManager : MonoBehaviour
     {
        // StartCoroutine(ShowText(OVRCameraAnchor, textMesh1));
 
-     TextA.Instance.PlayText(0, "어? 어디가!");
+     TextA.Instance.PlayText(0, 2f, "어? 어디가!");
 
         DelegateManager.Instance.FadeOperation(); //Fade 실행
 
@@ -45,7 +45,7 @@ public class UIManager : MonoBehaviour
     private void Instance_FoundCatOperate()
     {
         // StartCoroutine(ShowText(catGo, textMesh));
-        TextA.Instance.PlayText(0, "고양이를 발견");
+        TextA.Instance.PlayText(0, 2f, "고양이를 발견");
     }
     IEnumerator ShowText(GameObject anchor, TextMesh tm)
     {

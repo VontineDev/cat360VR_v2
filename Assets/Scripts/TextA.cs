@@ -18,7 +18,7 @@ public class TextA : MonoBehaviour
     private int idx = 0;
     [Tooltip("문장 출력 속도")]
     [Range(2, 10)]
-    public float textSpeed;
+    //public float textSpeed;
 
     public bool isEnd;//창을 닫을 때 판단변수
     public GameObject talkWindow;//대화창
@@ -47,14 +47,14 @@ public class TextA : MonoBehaviour
     private void Instance_RunCatOperate()
     {
         var str = "쫓아가자";
-        PlayText(2f, str);
+        PlayText(2f,2f, str);
         DelegateManager.Instance.FadeOperation();
     }
 
     private void Instance_FoundCatOperate()
     {
         var str = "찾았다!";
-        PlayText(2f, str);
+        PlayText(2f,2f, str);
     }
 
     public void Update()
@@ -72,12 +72,12 @@ public class TextA : MonoBehaviour
     ///  <param name="s">textArea에쓴 내용 (출력할 텍스트)</param>
     /// <param name="isButtonYesNO">yesno버튼쓸건가요?</param>
     /// <param name="isButtonPlay">플레이버튼쓸껀가요?</param>
-    public void PlayText(float time, string s, bool isButtonYesNO = false, bool isButtonPlay = false)
+    public void PlayText(float time,float textSpeed, string s, bool isButtonYesNO = false, bool isButtonPlay = false)
     {
         string[] strArr = s.Split('\n');
         //일단 대화창 키고
         talkWindow.SetActive(true);
-        corutine = textGo(time, strArr);
+        corutine = textGo(time,textSpeed, strArr);
         StartCoroutine(corutine);
         if (isButtonYesNO)
         {
@@ -90,23 +90,23 @@ public class TextA : MonoBehaviour
         if (!isButtonYesNO && !isButtonPlay)
         {
             //버튼이 없을경우 대화가 끝나고 종료
-            Invoke("CloseText", strArr.Length * time + time);
+            Invoke("CloseText", strArr.Length *time);
         }
     }
 
 
 
-    public void PlayText2(float time, string s)
+    public void PlayText2(float time,float textSpeed, string s)
     {
         string[] strArr = s.Split('\n');
         //일단 대화창 키고
         talkWindow.SetActive(true);
-        corutine = textGo(time, strArr);
+        corutine = textGo(time, textSpeed, strArr);
         StartCoroutine(corutine);
 
     }
 
-    IEnumerator textGo(float time, string[] strArr)
+    IEnumerator textGo(float time,float textSpeed, string[] strArr)
     {
         idx = 0;
 
@@ -119,7 +119,15 @@ public class TextA : MonoBehaviour
             {
                 yield break;
             }
-            StartCoroutine(SoundGo(textSpeed / strArr[idx].Length, textSpeed));
+            int strSpace = 0;
+            for (int i = 0; i < strArr[idx].Length; i++)
+            {
+                if(strArr[idx][i]==' ')
+                {
+                    strSpace++;
+                }
+            }
+            StartCoroutine(SoundGo(textSpeed / (strArr[idx].Length-strSpace), textSpeed));
             idx++;
             if (idx == strArr.Length)
             {
@@ -146,12 +154,12 @@ public class TextA : MonoBehaviour
         float current = 0;
         while (true)
         {
-            sm.PlaySound();
             current += time;
             if (current >= end)
             {
                 yield break;
             }
+            sm.PlaySound();
             yield return new WaitForSeconds(time);
         }
 
