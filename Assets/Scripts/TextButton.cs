@@ -28,7 +28,6 @@ public class TextButton : MonoBehaviour
     private bool isPlay = false;
     private bool isRestart = false;
     private int noCount = 0;
-    public SoundManager sm;
     private void Start()
     {
         noCount = 0;
@@ -70,7 +69,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isYes)
         {
-            sm.PlaySound();
+            SoundManager.Instance.button.Play();
             ta.PlayText(time, 2f, strYes);
             isYes = true;
             DelegateManager.Instance.YesOperation();
@@ -82,7 +81,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isNo)
         {
-            sm.PlaySound();
+            SoundManager.Instance.button.Play();
             switch (noCount)
             {
                 case 0:
@@ -109,7 +108,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isPlay)
         {
-            sm.PlaySound();
+            SoundManager.Instance.button.Play();
             ta.PlayText(time, 2f, strPlay);
             Invoke("NextText", time);
             isPlay = true;
@@ -119,7 +118,7 @@ public class TextButton : MonoBehaviour
     {
         if (!isRestart)
         {
-            sm.PlaySound();
+            SoundManager.Instance.button.Play();
             ta.PlayText(time, 2f, "재시작 합니다.");
             Invoke("Restart", time);
             isRestart = true;

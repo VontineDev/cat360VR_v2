@@ -20,7 +20,6 @@ public class TextA : MonoBehaviour
     public GameObject talkWindow;//대화창
     private IEnumerator corutine;
     private int size;
-    public SoundManager sm;
     public TextButton tb;
     #region singleton
     public static TextA Instance;
@@ -178,7 +177,7 @@ public class TextA : MonoBehaviour
             {
                 yield break;
             }
-            sm.PlaySound();
+            SoundManager.Instance.text.Play();
             yield return new WaitForSeconds(time);
         }
 

@@ -13,14 +13,14 @@ public class SoundManager : MonoBehaviour
 
     bool isHappyCat;
 
-    public AudioSource audioSource;
+    public AudioSource text;
 
     public AudioSource happyNyang;
-
 
     // 3D Sound에 담을 Clip 파일
     public AudioClip exexSound;
 
+    public AudioSource button;
 
     private void Awake()
     {
@@ -34,7 +34,7 @@ public class SoundManager : MonoBehaviour
         isMiaow = false;
 
         isHappyCat = false;
-       
+        
      // happyNyang = this.GetComponent<AudioSource>();
         //bgm = GetComponent<AudioSource>();
         //  bgm.Play();
@@ -55,17 +55,14 @@ public class SoundManager : MonoBehaviour
             isMiaow = false;
         }
     }
-    public void PlaySound()
-    {
-        audioSource.Play();
-    }
+ 
 
     public void happayNyangSound()
     {
         if (isHappyCat == false)
         {
             happyNyang.Play();
-
+           
             happyNyang.loop = true;
 
             isHappyCat = false;
@@ -73,7 +70,6 @@ public class SoundManager : MonoBehaviour
         else
         {
             happyNyang.Pause();
-
             happyNyang.loop = false;
 
             isHappyCat = true;
