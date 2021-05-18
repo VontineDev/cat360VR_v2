@@ -45,13 +45,13 @@ public class TextA : MonoBehaviour
 
     private void Instance_FoundCatOperate()
     {
-        var str = "찾았다!";
-        PlayText(2f, 2f, str);
+        var s = "찾았다!";
+        PlayText(2f, 2f, s);
     }
     private void Instance_RunCatOperate()
     {
-        var str = "쫓아가자";
-        PlayText(2f, 2f, str);
+        var s = "쫓아가자";
+        PlayText(2f, 2f, s);
         DelegateManager.Instance.FadeOperation();
     }
     /// <summary>
@@ -63,22 +63,22 @@ public class TextA : MonoBehaviour
     /// </summary>
     private void Instance_TouchCatOperate()
     {
-        var str = "고양이를 쓰다듬어보자";
-        PlayText(3f, 2f, str);
+        var s = "고양이를 쓰다듬어보자";
+        PlayText(3f, 2f, s);
     }
     private void Instance_TouchCompleteOperate()
     {
         print($"TextA: Instance_TouchCompleteOperate");
-        var str = "냐옹아 집이 좋지?";
-        PlayText(3f, 2f, str);
+        var s = "냐옹아 집이 좋지?";
+        PlayText(3f, 2f, s);
         Invoke("touchText", 3.5f);
     }
 
 
     public void touchText()
     {
-        var str = "재시작 하실 건가요?";
-        PlayText(3f, 2f, str, false, false, true);
+        var s = "재시작 하실 건가요?";
+        PlayText(3f, 2f, s, false, false, true);
     }
     /// <summary>
     /// 실행함수

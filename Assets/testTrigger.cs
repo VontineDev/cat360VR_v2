@@ -6,11 +6,11 @@ public class testTrigger : MonoBehaviour
 {
     public AudioSource catAudioSource;
 
-    bool isTouchable; //고양이를 만질수 있는가?
+    public bool isTouchable = true; //고양이를 만질수 있는가?
     private void Start()
     {
         print($"Unity testTrigger");
-        catAudioSource = this.GetComponentInParent<AudioSource>();
+       // catAudioSource = this.GetComponentInParent<AudioSource>();
         //StartCoroutine(MakeTouchable());
         isTouchable = true;
     }
@@ -21,13 +21,16 @@ public class testTrigger : MonoBehaviour
 
         if (other.tag == "Hand")
         {
-            if (isTouchable)        //한번만터치하도록 한다... 대화창이 미친듯이뜨는소리가들려..
+            if(isTouchable)
             {
-                print($"In the isTouchable");
-
                 isTouchable = false;
+
+                print($"In the isTouchable");
                 DelegateManager.Instance.TouchCompleteOperation();
+
             }
+          
+            
         }
     }
     IEnumerator MakeTouchable()     //나중에 또 터치하고싶자너... 그럼 isTouchable을 true로 하는거지

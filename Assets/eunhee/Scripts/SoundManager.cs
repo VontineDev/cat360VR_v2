@@ -34,7 +34,8 @@ public class SoundManager : MonoBehaviour
         isMiaow = false;
 
         isHappyCat = false;
-        happyNyang = this.GetComponent<AudioSource>();
+       
+     // happyNyang = this.GetComponent<AudioSource>();
         //bgm = GetComponent<AudioSource>();
         //  bgm.Play();
     }
