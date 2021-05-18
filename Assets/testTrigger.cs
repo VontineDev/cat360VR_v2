@@ -11,7 +11,7 @@ public class testTrigger : MonoBehaviour
     {
         print($"Unity testTrigger");
         catAudioSource = this.GetComponentInParent<AudioSource>();
-        StartCoroutine(MakeTouchable());
+        //StartCoroutine(MakeTouchable());
         isTouchable = true;
     }
 
